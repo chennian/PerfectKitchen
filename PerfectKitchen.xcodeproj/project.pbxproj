@@ -26,6 +26,8 @@
 		BCCE16FB2E236CC200DCCCF6 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE16F42E236CC200DCCCF6 /* BaseTabBarController.swift */; };
 		BCCE16FC2E236CC200DCCCF6 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE16F52E236CC200DCCCF6 /* BaseTableViewController.swift */; };
 		BCCE16FD2E236CC200DCCCF6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE16F62E236CC200DCCCF6 /* BaseViewController.swift */; };
+		BCCE17032E236DDD00DCCCF6 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE17012E236DDD00DCCCF6 /* DatabaseManager.swift */; };
+		BCCE17042E236DDD00DCCCF6 /* RecipeDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE17022E236DDD00DCCCF6 /* RecipeDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		BCCE16F52E236CC200DCCCF6 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		BCCE16F62E236CC200DCCCF6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BCCE16F72E236CC200DCCCF6 /* BaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
+		BCCE17012E236DDD00DCCCF6 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		BCCE17022E236DDD00DCCCF6 /* RecipeDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				BCCE16F12E235D6800DCCCF6 /* Extension */,
 				BCCE16932E235CBF00DCCCF6 /* Resource */,
 				BCCE16E92E235D1700DCCCF6 /* API */,
+				BCCE17052E236DDD00DCCCF6 /* Database */,
 				BCCE16822E235C6000DCCCF6 /* Assets.xcassets */,
 				BCCE16832E235C6000DCCCF6 /* Info.plist */,
 				BCCE16852E235C6000DCCCF6 /* LaunchScreen.storyboard */,
@@ -145,6 +150,15 @@
 				BCCE16E82E235D1700DCCCF6 /* README.md */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		BCCE17052E236DDD00DCCCF6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE17012E236DDD00DCCCF6 /* DatabaseManager.swift */,
+				BCCE17022E236DDD00DCCCF6 /* RecipeDAO.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		BCCE16F02E235D5700DCCCF6 /* Base */ = {
@@ -302,6 +316,8 @@
 				BCCE16EE2E235D1700DCCCF6 /* NetworkManager.swift in Sources */,
 				BCCE16EF2E235D1700DCCCF6 /* NetworkModels.swift in Sources */,
 				BCCE16912E235C6000DCCCF6 /* SceneDelegate.swift in Sources */,
+				BCCE17032E236DDD00DCCCF6 /* DatabaseManager.swift in Sources */,
+				BCCE17042E236DDD00DCCCF6 /* RecipeDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
