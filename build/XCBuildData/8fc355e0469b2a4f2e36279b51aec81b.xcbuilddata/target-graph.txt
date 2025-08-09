@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'PerfectKitchen' in project 'PerfectKitchen' (no dependencies)
