@@ -1,0 +1,158 @@
+{
+  "" : {
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/PerfectKitchen-master.dia",
+    "emit-module-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/PerfectKitchen-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/PerfectKitchen-master-emit-module.dia",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/PerfectKitchen-master.swiftdeps"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/API/APIService.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/APIService~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/API/NetworkAPI.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkAPI~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/API/NetworkError.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkError~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/API/NetworkManager.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkManager~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/API/NetworkModels.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/NetworkModels~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/AppDelegate/AppDelegate.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/AppDelegate/SceneDelegate.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/Base/BaseExample.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseExample~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/Base/BaseNavigationController.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseNavigationController~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/Base/BaseTabBarController.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTabBarController~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/Base/BaseTableViewController.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseTableViewController~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/Base/BaseViewController.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseViewController~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/Base/BaseWebViewController.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/BaseWebViewController~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/PerfectKitchen/ViewController.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/ViewController~partial.swiftmodule"
+  },
+  "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/chenlian/Desktop/PerfectKitchen/build/PerfectKitchen.build/Debug-iphoneos/PerfectKitchen.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
