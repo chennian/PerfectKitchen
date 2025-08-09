@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftGen;
+			productName = SwiftGen;
 		};
 /* End PBXAggregateTarget section */
 
@@ -30,7 +31,7 @@
 		018BCED82FFBF59C2CD4C8D6CC810CEF /* WKWebView+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DCD14ADA4429660C938F815024E926 /* WKWebView+Doraemon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		019E2E60370D97793F78BFA5B82E7F70 /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FE9DCCC489A0F14895901798053E15 /* ImageProgressive.swift */; };
 		01C8D14263E2E47CF7DD646A96958D11 /* DoraemonUIProfilePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEC508289C255C720492C3404A2891D /* DoraemonUIProfilePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0217BD2D535BBE17D651A40D117783C5 /* Kingfisher-Kingfisher in Resources */ = {isa = PBXBuildFile; fileRef = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */; };
+		0217BD2D535BBE17D651A40D117783C5 /* Kingfisher.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */; };
 		021CE70EEC4BA849D0427D687A11E949 /* DoraemonHealthBgView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D412E147AC2D9DBD3B0CCBF3030E5E /* DoraemonHealthBgView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02624E2C7B9BAB44981A26603ECDDCE7 /* DoraemonCellSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DD4BCFBBE24C81AE56E5A7E4C911A7 /* DoraemonCellSwitch.m */; };
 		033E7F86302181D05057E003ECE9CE21 /* DoraemonChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE1FD8A628067F469259E3415BDEB83 /* DoraemonChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -122,7 +123,7 @@
 		146B43DD0972D6A9C24F8E2479C29C23 /* DoraemonViewAlignPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 807131AEB2E6A71DD88E6A8BA754F4DE /* DoraemonViewAlignPlugin.m */; };
 		14923998880378D75DF948046F6926E6 /* DoraemonJavaScriptDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AD24B81D170EAB60E017145E670F0F /* DoraemonJavaScriptDetailViewController.m */; };
 		14B066D89FC6AC110D3EDFA6C5EED1F5 /* DoraemonNetFlowSummaryTotalDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B23F7565335C8F5D73A51E20F46ABA0 /* DoraemonNetFlowSummaryTotalDataView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14CE79CC1E18917687E71DDF7F126560 /* IQTextInputViewNotification-IQTextInputViewNotification in Resources */ = {isa = PBXBuildFile; fileRef = F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification-IQTextInputViewNotification */; };
+		14CE79CC1E18917687E71DDF7F126560 /* IQTextInputViewNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification.bundle */; };
 		153031A7E5B719521343EE42A88EC079 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238CD0ECF0B1B909B675F197139F308 /* CustomFunctions.swift */; };
 		15440D5FF6B1530F59B67E182925EF09 /* doraemon_fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 792A1747B359748307A2C8D181DEEB31 /* doraemon_fishhook.c */; };
 		155CF81EEB64BD796F8CFDBC3146F116 /* DoraemonAlertUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DAC6C6C0900FCB17C175798B5B2BA8 /* DoraemonAlertUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -208,7 +209,7 @@
 		27CC39996617BCD45FB00D62708A73E5 /* GCDWebDAVServer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6581CC2F3E0E9B4DFBA1EBBB1E44BC5 /* GCDWebDAVServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28CEE0F0205DF80E8B22E427DD4E4727 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77B674C6CB243D9192898C692F3C3C4 /* Foundation.framework */; };
 		28D561FA50F8A68016B01B4DBD038314 /* DoraemonViewAlignPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C35C42D6CFCF5823BE8B2E06C318BED /* DoraemonViewAlignPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29576A1A20C9F72A0AE086EE81AC8303 /* FMDB-FMDB_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB-FMDB_Privacy */; };
+		29576A1A20C9F72A0AE086EE81AC8303 /* FMDB_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB_Privacy.bundle */; };
 		296BF59A80969CF54CFCD4908064CF87 /* NetworkActivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683D49281E87D898CE055C21D400E7A3 /* NetworkActivityPlugin.swift */; };
 		29C433665FA967606C6CD5B8A265D1B6 /* Moya-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E98CE20AF4EB0078CAC6736848A65037 /* Moya-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A07B91015C2C8A85A938D00F9451226 /* DoraemonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D9C13887AD87A6A3AF95BD0572BCA3 /* DoraemonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -295,7 +296,7 @@
 		3DD607D8EE7367C54BF5D9252D1F7AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77B674C6CB243D9192898C692F3C3C4 /* Foundation.framework */; };
 		3E715D5BADDEACEEF30D6A4CA82CDA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77B674C6CB243D9192898C692F3C3C4 /* Foundation.framework */; };
 		3E84087ADA4E100A72D7C68B28AF0ABE /* BarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C34BFA5A8257125C0BA8BD3061538D8 /* BarChartRenderer.swift */; };
-		3EF14854F58A20B60C9C3C9003534182 /* JXSegmentedView-JXSegmentedView in Resources */ = {isa = PBXBuildFile; fileRef = 92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */; };
+		3EF14854F58A20B60C9C3C9003534182 /* JXSegmentedView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView.bundle */; };
 		3EF36808158F9860EC3C0ADF2D86812F /* DoraemonWeakNetworkDetailView.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFC40709891136A6A1C95379B1B2133 /* DoraemonWeakNetworkDetailView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EFC25A3DC454801F4A9876597302994 /* DoraemonMockSceneButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 263A8DD04064A7E38A58B787F6CB192D /* DoraemonMockSceneButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F45EE5CF5624A21A75568F24A62C2CC /* DefaultAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B71939CF2E15E0BF4C89BB7161E33 /* DefaultAxisValueFormatter.swift */; };
@@ -361,7 +362,7 @@
 		500F7E75C1E816A4B895B24EDFA798B5 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 537FC98F4FC6508C1D124504963F8C47 /* FSCalendarDelegationFactory.m */; };
 		5099C9AE392B5ADF7E6D1D3BC07E30FD /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AE38D4E0663EAE26B11B2BB08B9DDB4F /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50D7AD222A8B4DB19753011279A10428 /* DoraemonMockDetailSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = E8792B614CCF32EDEBFC15A2342C24A7 /* DoraemonMockDetailSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5103A4960162A9E4070B30024E72EF23 /* DoraemonKit-DoraemonKit in Resources */ = {isa = PBXBuildFile; fileRef = 0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit-DoraemonKit */; };
+		5103A4960162A9E4070B30024E72EF23 /* DoraemonKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit.bundle */; };
 		512AE4AAA95EE1989FB6DDE0490BA3F2 /* DoraemonHealthInstructionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7ECE96A308CF1663CA36CEE31BAB3 /* DoraemonHealthInstructionsView.m */; };
 		512E3A0BF0539A1AE7F1FA7D381A12D0 /* DoraemonKitManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102F846917B100D505789D672B8CFFD /* DoraemonKitManagerViewController.m */; };
 		51A5583901C0CF6A84871508C9FDF13C /* DoraemonHierarchyCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D668790BC92D6373C9DB13B157ED7C3 /* DoraemonHierarchyCellModel.m */; };
@@ -389,7 +390,7 @@
 		55340BCF33B8C4960B97749F41A92A5B /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 496816F76D7419AE72562D82C47E623E /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56BC00849608BBF8F5A5887DA1E81C2B /* PieChartDataSetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CA118A4CC8D4ED86B1BB2C8622111 /* PieChartDataSetProtocol.swift */; };
 		56CE087DC93550E07309FB5BD2717C24 /* Platform+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0969B9A1213EFA8A07CA834F8FC09 /* Platform+Gestures.swift */; };
-		56DA8C19CE479A486209E7C84685240B /* DGCharts-DGCharts in Resources */ = {isa = PBXBuildFile; fileRef = B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts-DGCharts */; };
+		56DA8C19CE479A486209E7C84685240B /* DGCharts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts.bundle */; };
 		57021BCA8C3CC92B0EE8A5B5212A9BFD /* DoraemonCrashUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A54BFF7D3489CDC43E438E35D7519935 /* DoraemonCrashUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57047588026E0F966E1EE4D3B57516B5 /* DoraemonViewMetricsConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C974A446036CED269AD0DC405246A8 /* DoraemonViewMetricsConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		571CA80E087FB408B288F74D7279C660 /* DoraemonViewCheckPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D6157879C26E0AA9945CC107B654A7E7 /* DoraemonViewCheckPlugin.m */; };
@@ -413,7 +414,7 @@
 		5C1357B926FD82CA862089BBB1D5001E /* DoraemonDeleteLocalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06A90726F214183ADEFB5A49185FA1 /* DoraemonDeleteLocalDataViewController.m */; };
 		5C1F4747AB45314EEDA175039816496C /* DoraemonHealthHomeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55267BA522854B4730AD700F30C05E6D /* DoraemonHealthHomeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C685455AAE5E60824DDF3C344E48B73 /* DoraemonMockBaseListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2A8001E5179FF60FA0C299269A9BEF /* DoraemonMockBaseListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CD127F101529C336A07D45CE1106A54 /* Alamofire-Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */; };
+		5CD127F101529C336A07D45CE1106A54 /* Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */; };
 		5CDEDAFF13117343E7BDAF5437C751F3 /* ViewPortHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836F43796D843B9A7FA8F7C50DEB49B /* ViewPortHandler.swift */; };
 		5D3F973AC0B69D97267CFA5608EB50E4 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36824BCAFB90583D27E9A933772905F5 /* Statement.swift */; };
 		5DB2AE7D3A958AEFD7A712A676972EF5 /* DoraemonFileSyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B4C63899215E579FC505446900177 /* DoraemonFileSyncViewController.m */; };
@@ -485,7 +486,7 @@
 		6D8CC98CCB4CE291536652ADFBD5C714 /* UIImage+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B80D37145360AF48D9A1E53CD28975 /* UIImage+Doraemon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D9ADF7A3D143ECABDF85DFEF67BD6A8 /* BarChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A97C16513DC1BD61289063324E6E573 /* BarChartDataEntry.swift */; };
 		6DCEC1437B511C5B68198B8C7333D476 /* DoraemonJavaScriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD08B9AB10B368EF7624E5AC673CD23 /* DoraemonJavaScriptManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DE9FD143CBC24075601F8FE2ADC4115 /* IQKeyboardCore-IQKeyboardCore in Resources */ = {isa = PBXBuildFile; fileRef = 6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore-IQKeyboardCore */; };
+		6DE9FD143CBC24075601F8FE2ADC4115 /* IQKeyboardCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore.bundle */; };
 		6DF42EAF3BD546C366563B9359DB1810 /* NSMutableDictionary+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE5CC5DC4C5B78AE6EAC997D3EB32F2 /* NSMutableDictionary+safe.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6E39129FC8643A70C276801FEF4C280D /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD5571AFBF57DC93CB9F0F54F7B5E9 /* Constraint.swift */; };
 		6E609754FD946B9060E79AA72B507C12 /* DoraemonMockDataPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 77997257540932C941E70F624E71A59F /* DoraemonMockDataPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -633,7 +634,7 @@
 		91BCB3D9B63D7138681466E96EC5FB90 /* ChartColorTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF19ED84ADEA41442FA5806DB60132 /* ChartColorTemplates.swift */; };
 		91BECD2DE618E7C07483E3CC5525BFB7 /* UIViewController+DoraemonUIProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D7397542E06506C72888BE29BE4350 /* UIViewController+DoraemonUIProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9233E61C550EF787365067D5A3A792EA /* DoraemonCellButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D58FF14C6BA3E9B799CE069EDD5E4E97 /* DoraemonCellButton.m */; };
-		92891718F1FDC912360C5A4F26D5E500 /* IQKeyboardToolbar-IQKeyboardToolbar in Resources */ = {isa = PBXBuildFile; fileRef = A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar-IQKeyboardToolbar */; };
+		92891718F1FDC912360C5A4F26D5E500 /* IQKeyboardToolbar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar.bundle */; };
 		92A43BFC165F5595D1CF24AD2C65D6C0 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BA18598C77470BE00CD4AB01BF5A5 /* ImageDataProvider.swift */; };
 		92CCE0376731C3DC4901F6AB3431EBA5 /* DoraemonBuriedPointManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8667203817ABF715B4044423C07D64D2 /* DoraemonBuriedPointManager.m */; };
 		92D50FCEBF77BFACA64AB481BF6EB687 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6708B457363BE5213B5F71CEFE4F01 /* CallbackQueue.swift */; };
@@ -687,7 +688,7 @@
 		9D46306826317C2783B0A8255691E035 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D6251BA088917C2CDBCFCC0A28486 /* StringEncoding+Alamofire.swift */; };
 		9D9D79F99B4934D22339D9DDBA85525A /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF0E6B3F6E85F5289A0782206D27ABF /* FSCalendarCalculator.m */; };
 		9DA8926B47DBD1FE1802A7B9D4EA8BFA /* DoraemonHealthCountdownWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1E97221B2921D6747CF494874D690B /* DoraemonHealthCountdownWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E0045B41BFE697DB4ADE151228024D2 /* SnapKit-SnapKit_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */; };
+		9E0045B41BFE697DB4ADE151228024D2 /* SnapKit_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */; };
 		9E18F3A158F61A74E56E8ECC60991E5B /* DoraemonNSLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDA55C7683284E2D0A83D24F42B7873 /* DoraemonNSLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E2F6CD9D1399BEA455217A041C7E867 /* DoraemonMockAPIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4103BC353203C6DF2BAD51699BB623 /* DoraemonMockAPIModel.m */; };
 		9E371C66DC38B2A03419C4FE2427CAAC /* DoraemonBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC96C206C88531777CB9DD7FDD3B08 /* DoraemonBarChart.m */; };
@@ -807,7 +808,7 @@
 		B480BFD36FDF0C5AA59F9F179C1E158C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE0589E0158E808001B28544E1B726D /* QuartzCore.framework */; };
 		B4949D3C7316409659C7460A1BA9AAB4 /* DoraemonNSURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D9431BCA941846121BC36564066D7 /* DoraemonNSURLProtocol.m */; };
 		B499999F21DEEC4D147FCA41F1BB273A /* YAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE938391D437F2F56429B5C37BBEA1 /* YAxisRendererRadarChart.swift */; };
-		B54824980527B23D6D4598B06A169C5D /* IQKeyboardToolbarManager-IQKeyboardToolbarManager in Resources */ = {isa = PBXBuildFile; fileRef = 80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager-IQKeyboardToolbarManager */; };
+		B54824980527B23D6D4598B06A169C5D /* IQKeyboardToolbarManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager.bundle */; };
 		B54BB0C476C0355A07ED6635333E5FB5 /* DoraemonCellSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5F340DD482A5A1C6B643E8E04D1F1D /* DoraemonCellSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5FD88D2866E72C1E5CC1A374690AA1B /* DoraemonNetFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317E2511B07B0E7F6344F9916675B959 /* DoraemonNetFlowViewController.m */; };
 		B6632B8D52631DE5FA8145F61787BF80 /* DoraemonHealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E386DF17A88946D75F321FB47CC7333E /* DoraemonHealthManager.m */; };
@@ -1126,7 +1127,7 @@
 		F848243AB38FDD8ADD64AF4EDCB224AB /* LineRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0610471AE9C1BE8BC04BAC820811E /* LineRadarChartDataSet.swift */; };
 		F84B4B1AC19351FE214991CFED0A1F0D /* DoraemonUIProfileViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6711FBF061E6E178A70A1717D697A7 /* DoraemonUIProfileViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8701B76E7B4AD5B342EB46F3D73469F /* CombinedHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3317DBB533604875B94F826224F09995 /* CombinedHighlighter.swift */; };
-		F87B8D2DD889E0FB70D998BBDB8DDE8B /* JXPagingView-JXPagingView in Resources */ = {isa = PBXBuildFile; fileRef = 7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView-JXPagingView */; };
+		F87B8D2DD889E0FB70D998BBDB8DDE8B /* JXPagingView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView.bundle */; };
 		F8B01565180DEA859FA1D73031F0E87A /* DoraemonNSLogListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A35FF0AFC9383F3AEF93611C7B29AE99 /* DoraemonNSLogListCell.m */; };
 		F8B635983C084BAB11F000F2952D091B /* XAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF35B0A4840B621C15A01E9044A6CD7 /* XAxisRendererRadarChart.swift */; };
 		F8F99BAFACAF24025C3E00587C6BDFD1 /* DoraemonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4516B16A96807239AE22A74074F0DD93 /* DoraemonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1471,16 +1472,16 @@
 		0674FBEAB4905E7E67DD016C73E7C045 /* DoraemonCPUPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonCPUPlugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/CPU/DoraemonCPUPlugin.m; sourceTree = "<group>"; };
 		0696A700CA3EE90C0DE1263C9C0FA576 /* ResourceBundle-IQKeyboardToolbarManager-IQKeyboardToolbarManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IQKeyboardToolbarManager-IQKeyboardToolbarManager-Info.plist"; sourceTree = "<group>"; };
 		06B848838496E286B6D307123E4B8358 /* DoraemonOscillogramWindowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonOscillogramWindowManager.m; path = iOS/DoraemonKit/Src/Core/CommonUI/Oscillogram/DoraemonOscillogramWindowManager.m; sourceTree = "<group>"; };
-		06E5B413FEA5A600D76636DA132F8FB9 /* IQTextInputViewNotification */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQTextInputViewNotification; path = IQTextInputViewNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E5B413FEA5A600D76636DA132F8FB9 /* IQTextInputViewNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQTextInputViewNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07214733C9416A8A82507716C393E274 /* DoraemonNSUserDefaultsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNSUserDefaultsModel.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSUserDefaults/Model/DoraemonNSUserDefaultsModel.m; sourceTree = "<group>"; };
-		0772127612A7BBF6EC39348BD99D65BE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXSegmentedView; path = JXSegmentedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0772127612A7BBF6EC39348BD99D65BE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXSegmentedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B47F7BBC7F39229DC04C2F90121DB4 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
 		07CF680807BCF163214361FED1C606F4 /* DoraemonNetFlowDetailCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNetFlowDetailCell.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/Detail/DoraemonNetFlowDetailCell.m; sourceTree = "<group>"; };
 		07EB827D6BDFD083DF18AFC6B724B06E /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
 		0801C9831E86EA4029AE466EC7804A40 /* DoraemonNSUserDefaultsPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNSUserDefaultsPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSUserDefaults/DoraemonNSUserDefaultsPlugin.h; sourceTree = "<group>"; };
 		081BA86733D488ECABB4770DEB9BEFE8 /* CandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift; sourceTree = "<group>"; };
-		085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Alamofire-Alamofire"; path = Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F2B2A90E12D7E3458C9A2889462395 /* ImageBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBinder.swift; path = Sources/SwiftUI/ImageBinder.swift; sourceTree = "<group>"; };
 		092C31CD3DCB61333811B202E142E173 /* DoraemonHealthPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonHealthPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Health/DoraemonHealthPlugin.h; sourceTree = "<group>"; };
 		09428BC888D38A33F35BC3426E66549B /* DoraemonViewAlignManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonViewAlignManager.h; path = iOS/DoraemonKit/Src/Core/Plugin/UI/ViewAlign/Function/DoraemonViewAlignManager.h; sourceTree = "<group>"; };
@@ -1502,7 +1503,7 @@
 		0C809E7CE29865203A87FC903313E77E /* JXSegmentedTitleGradientCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleGradientCell.swift; path = Sources/TitleGradient/JXSegmentedTitleGradientCell.swift; sourceTree = "<group>"; };
 		0CBCD778EA6322EC0B7FC9B9287FB221 /* Moya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moya-Info.plist"; sourceTree = "<group>"; };
 		0CCCFBFE0F1A0508A3E3AD5909F576D8 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Core/Request.swift; sourceTree = "<group>"; };
-		0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit-DoraemonKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DoraemonKit-DoraemonKit"; path = DoraemonKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoraemonKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D97C2D7F6B370031213963D6B174382 /* ScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift; sourceTree = "<group>"; };
 		0DA8513336CF41FDC12B77742CF154E0 /* NSObject+DoraemonHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DoraemonHierarchy.m"; path = "iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/Function/Category/NSObject+DoraemonHierarchy.m"; sourceTree = "<group>"; };
 		0E38E0109541CEA3813AD3BD5933AFC2 /* JXPagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPagingView.swift; path = Sources/JXPagingView/JXPagingView.swift; sourceTree = "<group>"; };
@@ -1528,7 +1529,7 @@
 		11ED98B523C66DB5F489C14F6E1026C3 /* ResourceBundle-DGCharts-DGCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DGCharts-DGCharts-Info.plist"; sourceTree = "<group>"; };
 		11FB760EAAD3539FF2B5A632883471BB /* ChartAnimationEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAnimationEasing.swift; path = Source/Charts/Animation/ChartAnimationEasing.swift; sourceTree = "<group>"; };
 		120CB7A7734C988750FD52EEA751AC64 /* DoraemonMockPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMockPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/DoraemonMockPlugin.h; sourceTree = "<group>"; };
-		122C167A3C70E7B7EB4B26283B8C1472 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		122C167A3C70E7B7EB4B26283B8C1472 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		125F69AD792082214AAC8A1BE884B51F /* GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.debug.xcconfig; sourceTree = "<group>"; };
 		126A2CEBA9AD1437354097B4555B7875 /* DoraemonEntryWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonEntryWindow.m; path = iOS/DoraemonKit/Src/Core/Entry/Entry/DoraemonEntryWindow.m; sourceTree = "<group>"; };
 		129728E73E4ADB2578EADE7C7A037613 /* PHPickerResultImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PHPickerResultImageDataProvider.swift; path = Sources/General/ImageSource/PHPickerResultImageDataProvider.swift; sourceTree = "<group>"; };
@@ -1539,7 +1540,7 @@
 		14230CB3963B6E54D7D6F391E99BFAC7 /* Moya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.debug.xcconfig; sourceTree = "<group>"; };
 		144D7393C16F16E3539205DFFE4ADBAD /* YYDebugDatabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYDebugDatabase.modulemap; sourceTree = "<group>"; };
 		148A1C47EBE568DC06C0FB78B83FB22B /* DoraemonKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoraemonKit.debug.xcconfig; sourceTree = "<group>"; };
-		148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB-FMDB_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FMDB-FMDB_Privacy"; path = FMDB_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDB_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D95123BED6B557E69CFFF551100166 /* DoraemonNSUserDefaultsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNSUserDefaultsModel.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSUserDefaults/Model/DoraemonNSUserDefaultsModel.h; sourceTree = "<group>"; };
 		14F7958B352138379536BE1FBBADD9D9 /* DGCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGCharts-prefix.pch"; sourceTree = "<group>"; };
 		1527FC4CD85D2679269F5A2C7D86B18F /* JXSegmentedTitleOrImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleOrImageCell.swift; path = Sources/TitleOrImage/JXSegmentedTitleOrImageCell.swift; sourceTree = "<group>"; };
@@ -1626,7 +1627,7 @@
 		27FE748DB8F6183A426CC0245F2A0EFE /* NSMutableArray+safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+safe.m"; path = "DebugDatabase/NSMutableArray+safe.m"; sourceTree = "<group>"; };
 		2805F35AC41861A499D95020B06A8B44 /* PieChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/PieChartDataSet.swift; sourceTree = "<group>"; };
 		282425F7849A1B173CB39C691DF2A7A5 /* DoraemonLargeImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonLargeImageViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/LargeImageDetection/DoraemonLargeImageViewController.h; sourceTree = "<group>"; };
-		282B525ED6967D12AC9C6479C802CD46 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQKeyboardCore/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		282B525ED6967D12AC9C6479C802CD46 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IQKeyboardCore/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2836F43796D843B9A7FA8F7C50DEB49B /* ViewPortHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewPortHandler.swift; path = Source/Charts/Utils/ViewPortHandler.swift; sourceTree = "<group>"; };
 		283E8A607EF620CEA5CF471D7E32DA97 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		28568D2A03299D2FC3B7DFE3228A4ACB /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
@@ -1651,7 +1652,7 @@
 		2E95839369A77D4948321CE1F9A1EDEE /* DoraemonMockUploadCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMockUploadCell.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/List/Cell/DoraemonMockUploadCell.h; sourceTree = "<group>"; };
 		2ED4B73D5E8B53911B5357D959AF5196 /* DoraemonNetFlowOscillogramWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNetFlowOscillogramWindow.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/Function/View/DoraemonNetFlowOscillogramWindow.h; sourceTree = "<group>"; };
 		2F1B9BC8003C6A0CA3F96E2F6B05E8E9 /* JXSegmentedViewTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedViewTool.swift; path = Sources/Common/JXSegmentedViewTool.swift; sourceTree = "<group>"; };
-		2F4A1CCB21DB7EA5A2ACEB11E374FBCA /* JXPagingView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXPagingView; path = JXPagingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4A1CCB21DB7EA5A2ACEB11E374FBCA /* JXPagingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXPagingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5F340DD482A5A1C6B643E8E04D1F1D /* DoraemonCellSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonCellSwitch.h; path = iOS/DoraemonKit/Src/Core/CommonUI/CellSwitch/DoraemonCellSwitch.h; sourceTree = "<group>"; };
 		2FEFE4D6981FF6FBC1DA5F43EFB0DB38 /* JXSegmentedTitleOrImageDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleOrImageDataSource.swift; path = Sources/TitleOrImage/JXSegmentedTitleOrImageDataSource.swift; sourceTree = "<group>"; };
 		30A3AFA14D8B848C2435D29189587C88 /* DoraemonMockDetailSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockDetailSwitch.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/List/DoraemonMockDetailSwitch.m; sourceTree = "<group>"; };
@@ -1700,7 +1701,7 @@
 		36CF365C54AE29C067692582CC4A5BB0 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		36F9C899C6E8B8CDF8A25BF31ABAC190 /* doraemon_file_sync_banner@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_file_sync_banner@3x.png"; path = "iOS/DoraemonKit/Resource/doraemon_file_sync_banner@3x.png"; sourceTree = "<group>"; };
 		37264197BF7363E79073D4E929E2D03E /* DoraemonNetFlowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNetFlowManager.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/Function/DoraemonNetFlowManager.m; sourceTree = "<group>"; };
-		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37803A10D7604684187B3B066951BB55 /* DoraemonCrashSignalExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonCrashSignalExceptionHandler.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/Crash/Function/DoraemonCrashSignalExceptionHandler.m; sourceTree = "<group>"; };
 		37930D4BEBBFF923DF07E7D34FD08949 /* DoraemonNetFlowDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNetFlowDetailViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/Detail/DoraemonNetFlowDetailViewController.m; sourceTree = "<group>"; };
 		37E164449A7717E9841403B2C02A47BA /* DoraemonJavaScriptPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonJavaScriptPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/JavaScript/DoraemonJavaScriptPlugin.h; sourceTree = "<group>"; };
@@ -1757,7 +1758,7 @@
 		42B720A7CF36014495929884AA4E87A4 /* DoraemonNSUserDefaultsEditViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNSUserDefaultsEditViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSUserDefaults/ViewControllers/DoraemonNSUserDefaultsEditViewController.h; sourceTree = "<group>"; };
 		433CDF9BDBE1C63B3F80B9972E5CA9BE /* DoraemonMockBaseListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockBaseListView.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/List/ListView/DoraemonMockBaseListView.m; sourceTree = "<group>"; };
 		4362B4B9CACB732B34E41B23C81AA448 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
-		4369F393199FAAD9DB5B45744F5A0432 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4369F393199FAAD9DB5B45744F5A0432 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		436B4224C4080151999996AF96FBBB38 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
 		438DEDA2BF4B45D8038BBB13AD832EA8 /* CrossShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/CrossShapeRenderer.swift; sourceTree = "<group>"; };
 		43B88D513D829976EFDC15C9045FB25F /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
@@ -1788,7 +1789,7 @@
 		484C09321E92FFDE55101AC0A42CF806 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Features/Validation.swift; sourceTree = "<group>"; };
 		48615D344410C28AAD3830A483BDF881 /* DoraemonMemoryPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMemoryPlugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/Memory/DoraemonMemoryPlugin.m; sourceTree = "<group>"; };
 		4871592CF5C04737B571BEDD288D4579 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Core/Session.swift; sourceTree = "<group>"; };
-		48AD7AA50762BF0D2CD07CE0FCE0103F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		48AD7AA50762BF0D2CD07CE0FCE0103F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		48B17AFD1CC85ACCD126D54BBA47D599 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
 		48B59F9090AAE3F7F59F82C0673CC400 /* DoraemonOscillogramWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonOscillogramWindow.m; path = iOS/DoraemonKit/Src/Core/CommonUI/Oscillogram/DoraemonOscillogramWindow.m; sourceTree = "<group>"; };
 		4919E755A313B896A15C0B72BE1B374E /* UIColor+DoraemonHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DoraemonHierarchy.h"; path = "iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/Function/Category/UIColor+DoraemonHierarchy.h"; sourceTree = "<group>"; };
@@ -1911,7 +1912,7 @@
 		5CE2E37D8B183FCF414D0098F7B9F38A /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
 		5CE44C7B2204B3FEBBFD50E07982D4E0 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
 		5D70203E27420B3A15523F5672BC6933 /* CandleStickChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartRenderer.swift; path = Source/Charts/Renderers/CandleStickChartRenderer.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8D6DFD57A22A164A6D08A81F1C0C4C /* DoraemonNSLogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNSLogManager.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSLog/Function/DoraemonNSLogManager.m; sourceTree = "<group>"; };
 		5DAEC3CD8FB5EF4AD7C83A1FFE98F71F /* IQTextInputViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextInputViewNotification.swift; path = IQTextInputViewNotification/Classes/IQTextInputViewNotification.swift; sourceTree = "<group>"; };
 		5E57A1DFD191AAE3CEF7B9D4F7233A31 /* DoraemonMockApiListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockApiListView.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/List/ListView/DoraemonMockApiListView.m; sourceTree = "<group>"; };
@@ -1951,11 +1952,11 @@
 		689B1CBC05633AB29A8AAB7E59E3B012 /* Pods-PerfectKitchen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerfectKitchen-Info.plist"; sourceTree = "<group>"; };
 		68A77F2CA6B4249E36B6FD8422670FEA /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		68BC92BD45C39E9EFB3C72043B8DF181 /* JXSegmentedComponetGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedComponetGradientView.swift; path = Sources/Indicator/JXSegmentedComponetGradientView.swift; sourceTree = "<group>"; };
-		68C830138F9C12DE15D50CCB0BB79279 /* YYDebugDatabase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYDebugDatabase; path = YYDebugDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C830138F9C12DE15D50CCB0BB79279 /* YYDebugDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYDebugDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6918EA325FDD236851AC662A930155BC /* DoraemonAppInfoPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonAppInfoPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/AppInfo/DoraemonAppInfoPlugin.h; sourceTree = "<group>"; };
 		69347183E5211506C9F657B3DD13D937 /* UIView+DoraemonSubThreadUICheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DoraemonSubThreadUICheck.m"; path = "iOS/DoraemonKit/Src/Core/Plugin/Performance/SubThreadUICheck/Function/UIView+DoraemonSubThreadUICheck.m"; sourceTree = "<group>"; };
 		6938374C57BDECDEEB112F629AA268CB /* RadarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartRenderer.swift; path = Source/Charts/Renderers/RadarChartRenderer.swift; sourceTree = "<group>"; };
-		695953804E9F366FDF9D31CB5D323D51 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Source/Charts/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		695953804E9F366FDF9D31CB5D323D51 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Source/Charts/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		69970387AA34AEB52457A8B88A8A2BD8 /* JXPagingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPagingView.debug.xcconfig; sourceTree = "<group>"; };
 		69A7B6271AB23E6E8EFF6B66923B0AD3 /* DoraemonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DoraemonKit-prefix.pch"; sourceTree = "<group>"; };
 		6A4374ED9FFAB55D63DECBB6F4ADD1C9 /* DoraemonHealthAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonHealthAlertView.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Health/Alert/DoraemonHealthAlertView.h; sourceTree = "<group>"; };
@@ -1979,7 +1980,7 @@
 		6E1F62C6E01EFAD5FCE546D4B7F6E67D /* DoraemonColorPickMagnifyLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonColorPickMagnifyLayer.h; path = iOS/DoraemonKit/Src/Core/Plugin/UI/ColorPick/Function/DoraemonColorPickMagnifyLayer.h; sourceTree = "<group>"; };
 		6E41D092AA107CA000A6B39E00480B83 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		6E525355A66DC3035F160EE6484166AE /* Pods-PerfectKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PerfectKitchen.release.xcconfig"; sourceTree = "<group>"; };
-		6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore-IQKeyboardCore */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "IQKeyboardCore-IQKeyboardCore"; path = IQKeyboardCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQKeyboardCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E91087B87149B8828B7D64D7EAE164D /* DoraemonImageDetectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonImageDetectionCell.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/LargeImageDetection/Detail/DoraemonImageDetectionCell.m; sourceTree = "<group>"; };
 		6EDDE380EBD93884DB72126D7E7F86EB /* DoraemonMockFilterListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMockFilterListView.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/Filter/DoraemonMockFilterListView.h; sourceTree = "<group>"; };
 		6FB5C760CF40C0AAA1BB2699BF1B1DE9 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
@@ -2026,7 +2027,7 @@
 		78FE9DCCC489A0F14895901798053E15 /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
 		7918BD829D6490D6FFE03D3D3BCF2483 /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		791C89419D4A7A9CE5FAA1513120EFC5 /* Transformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformer.swift; path = Source/Charts/Utils/Transformer.swift; sourceTree = "<group>"; };
-		792A1747B359748307A2C8D181DEEB31 /* doraemon_fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = doraemon_fishhook.c; path = iOS/DoraemonKit/Src/Core/Util/fishhook/doraemon_fishhook.c; sourceTree = "<group>"; };
+		792A1747B359748307A2C8D181DEEB31 /* doraemon_fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = doraemon_fishhook.c; path = iOS/DoraemonKit/Src/Core/Util/fishhook/doraemon_fishhook.c; sourceTree = "<group>"; };
 		794C2CE35CFD4D77A746A8C543991765 /* JXPagingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPagingView-prefix.pch"; sourceTree = "<group>"; };
 		79B1B8CF1776558E37C34769C2D1F43E /* DKHierarchyPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKHierarchyPickerView.h; path = iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/UserInterface/View/DKHierarchyPickerView.h; sourceTree = "<group>"; };
 		79B6F7A63CE9A3A7EB3E8A9069DDB818 /* DoraemonDeleteLocalDataPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonDeleteLocalDataPlugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/DeleteLocalData/DoraemonDeleteLocalDataPlugin.m; sourceTree = "<group>"; };
@@ -2044,7 +2045,7 @@
 		7D1D0252E37D7215C31EE8BAAC4E0945 /* DoraemonANRListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonANRListCell.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/ANR/List/DoraemonANRListCell.h; sourceTree = "<group>"; };
 		7D8D10C22700C44F003976D8AE8E90EA /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		7E7BF05D7EF2AA21AF2C99C019A97FF4 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
-		7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView-JXPagingView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JXPagingView-JXPagingView"; path = JXPagingView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXPagingView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECAD9DF6DA82943A175973DB7CEDAE6 /* DoraemonSubThreadUICheckDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonSubThreadUICheckDetailViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/SubThreadUICheck/Detail/DoraemonSubThreadUICheckDetailViewController.h; sourceTree = "<group>"; };
 		7F0D2AF68326E3C34983DF2D78F03C87 /* DoraemonMemoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMemoryViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/Memory/DoraemonMemoryViewController.h; sourceTree = "<group>"; };
 		7F7741C03AA4E658443B9CB577C8E2F4 /* IQKeyboardToolbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardToolbar-dummy.m"; sourceTree = "<group>"; };
@@ -2055,7 +2056,7 @@
 		807131AEB2E6A71DD88E6A8BA754F4DE /* DoraemonViewAlignPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonViewAlignPlugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/UI/ViewAlign/DoraemonViewAlignPlugin.m; sourceTree = "<group>"; };
 		80964845C30722B9322531326D0CF33B /* DoraemonNSUserDefaultsPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNSUserDefaultsPlugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSUserDefaults/DoraemonNSUserDefaultsPlugin.m; sourceTree = "<group>"; };
 		80A3174BD49F5D9E30026ED7E275A223 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
-		80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager-IQKeyboardToolbarManager */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "IQKeyboardToolbarManager-IQKeyboardToolbarManager"; path = IQKeyboardToolbarManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQKeyboardToolbarManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		810423C84AE20CD7462E62B355CA2D1E /* ValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationType.swift; path = Sources/Moya/ValidationType.swift; sourceTree = "<group>"; };
 		811EDB4636361ACDA165C41E2B7C5121 /* iOSDebugDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iOSDebugDatabase.h; path = DebugDatabase/iOSDebugDatabase.h; sourceTree = "<group>"; };
 		819B207709E8730A281CEF5C24C03499 /* Legend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Legend.swift; path = Source/Charts/Components/Legend.swift; sourceTree = "<group>"; };
@@ -2063,7 +2064,7 @@
 		81EE938391D437F2F56429B5C37BBEA1 /* YAxisRendererRadarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxisRendererRadarChart.swift; path = Source/Charts/Renderers/YAxisRendererRadarChart.swift; sourceTree = "<group>"; };
 		8242E5F177CEBCA701529E5389B56F4F /* DoraemonHierarchyHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonHierarchyHelper.m; path = iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/Function/DoraemonHierarchyHelper.m; sourceTree = "<group>"; };
 		8253FFE6758BB793750F9E2772DD7BC2 /* Pods-PerfectKitchen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PerfectKitchen-dummy.m"; sourceTree = "<group>"; };
-		825849EEFE7ADC947E0672BAC39BBE5C /* Pods-PerfectKitchen */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PerfectKitchen"; path = Pods_PerfectKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		825849EEFE7ADC947E0672BAC39BBE5C /* Pods_PerfectKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D6BF86D7788BF7F43122B349F95D4D /* UIColor+DoraemonHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DoraemonHierarchy.m"; path = "iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/Function/Category/UIColor+DoraemonHierarchy.m"; sourceTree = "<group>"; };
 		82E93BFFFF253663590EF9B5AD23212D /* DoraemonStatusBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonStatusBarViewController.h; path = iOS/DoraemonKit/Src/Core/Base/DoraemonStatusBarViewController.h; sourceTree = "<group>"; };
 		8339182780B878C631984CFBA5C9B3E6 /* DoraemonDBRowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonDBRowView.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/Sanbox/VC/DB/DoraemonDBRowView.m; sourceTree = "<group>"; };
@@ -2105,7 +2106,7 @@
 		899C90A7E124F0EE0EE08FB358A12E74 /* UIImageView+DoraemonSDImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+DoraemonSDImage.m"; path = "iOS/DoraemonKit/Src/Core/Plugin/Performance/LargeImageDetection/Function/UIImageView+DoraemonSDImage.m"; sourceTree = "<group>"; };
 		89D4AA3D3DAF2BCE061EDA27DB8438FF /* PHLivePhotoView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PHLivePhotoView+Kingfisher.swift"; path = "Sources/Extensions/PHLivePhotoView+Kingfisher.swift"; sourceTree = "<group>"; };
 		8A78D7C747F0FC675CE185AF30986D29 /* IQKeyboardToolbarManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardToolbarManager-umbrella.h"; sourceTree = "<group>"; };
-		8A974C8A89F575EB7BAA3276B900A403 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQTextInputViewNotification/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8A974C8A89F575EB7BAA3276B900A403 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IQTextInputViewNotification/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		8AA98289C02B5B22B3532825F2536D56 /* DoraemonMockUploadViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMockUploadViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/VC/DoraemonMockUploadViewController.h; sourceTree = "<group>"; };
 		8B4C4C92772E79D8F3D87C556144143D /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
 		8B563F4A09E239AC375FAC3133ED6934 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
@@ -2148,7 +2149,7 @@
 		92399DB475CD6475550A1D032803BD70 /* UIView+Responders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Responders.swift"; path = "IQKeyboardToolbarManager/Classes/UIKitExtensions/UIView+Responders.swift"; sourceTree = "<group>"; };
 		925DFAEFBF82710EDB506583116CB7E6 /* JXSegmentedTitleImageDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleImageDataSource.swift; path = Sources/TitleImage/JXSegmentedTitleImageDataSource.swift; sourceTree = "<group>"; };
 		9275F024178BCAD436728B1A76E5F560 /* DoraemonViewCheckPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonViewCheckPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/UI/ViewCheck/DoraemonViewCheckPlugin.h; sourceTree = "<group>"; };
-		92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JXSegmentedView-JXSegmentedView"; path = JXSegmentedView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXSegmentedView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CC123429176E6A08263030B5FABEAD /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		92EB3ED999E92E8D26C968CFB36FCADF /* IQPlaceholderable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlaceholderable.swift; path = IQKeyboardToolbar/Placeholderable/IQPlaceholderable.swift; sourceTree = "<group>"; };
 		931D434B9A9426CD0BC2AE5D6996E1C4 /* TransformerHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformerHorizontalBarChart.swift; path = Source/Charts/Utils/TransformerHorizontalBarChart.swift; sourceTree = "<group>"; };
@@ -2166,7 +2167,7 @@
 		94ED94CEDB8324FF43CE19198C53BC94 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		95105A20AD53C34977FC67F86B44F9CD /* Connection+Aggregation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Aggregation.swift"; path = "Sources/SQLite/Core/Connection+Aggregation.swift"; sourceTree = "<group>"; };
 		95186FB1FCE7660D444AB8F12EE0D23B /* Sequence+KeyPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Sequence+KeyPath.swift"; path = "Source/Charts/Utils/Sequence+KeyPath.swift"; sourceTree = "<group>"; };
-		95209B8BB966524BC76543F99C75F5FE /* FSCalendar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9522B8DAEEFDC268A8065E2415D31841 /* DoraemonDBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonDBManager.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/Sanbox/Util/DoraemonDBManager.m; sourceTree = "<group>"; };
 		954392BC353B4F41866AC078E5F9FBAD /* DoraemonNSLogListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNSLogListCell.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSLog/List/DoraemonNSLogListCell.h; sourceTree = "<group>"; };
 		956C31A850954E0F03D09308097828F1 /* DoraemonNSLogPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNSLogPlugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSLog/DoraemonNSLogPlugin.m; sourceTree = "<group>"; };
@@ -2178,7 +2179,7 @@
 		971CE1E381E960CADDA79C8654C01E38 /* DoraemonDatabaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonDatabaseViewController.m; path = iOS/DoraemonKit/Src/Database/DoraemonDatabaseViewController.m; sourceTree = "<group>"; };
 		9733FDC4B9387DD48ACF15A9BD961590 /* DoraemonTimeProfilerPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonTimeProfilerPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/DoraemonTimeProfilerPlugin.h; sourceTree = "<group>"; };
 		974227E6D8D323BB58DDB52D435F57A4 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A07FEC9BE75993A381107BF6570802 /* DoraemonAppInfoPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonAppInfoPlugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/AppInfo/DoraemonAppInfoPlugin.m; sourceTree = "<group>"; };
 		98009A2CFF0A9EF07CF7C84286B6CA0D /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		98551BD800FC8E5CC61B0D7629918936 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/Core/HTTPMethod.swift; sourceTree = "<group>"; };
@@ -2191,7 +2192,7 @@
 		991CCC6F1DFAF3C54388E7E36A6F8027 /* JXSegmentedTitleImageItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleImageItemModel.swift; path = Sources/TitleImage/JXSegmentedTitleImageItemModel.swift; sourceTree = "<group>"; };
 		9994FB9021032AC7EDA3484D1AE31ACE /* DoraemonOscillogramViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonOscillogramViewController.h; path = iOS/DoraemonKit/Src/Core/CommonUI/Oscillogram/DoraemonOscillogramViewController.h; sourceTree = "<group>"; };
 		99D199F4F91BDD5B3431E916777ADC2D /* DoraemonFileSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonFileSyncManager.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/FileSync/Function/DoraemonFileSyncManager.h; sourceTree = "<group>"; };
-		9A024BC2A3C01619224A40EBDC0882EC /* DoraemonTimeProfilerCore.c */ = {isa = PBXFileReference; includeInIndex = 1; name = DoraemonTimeProfilerCore.c; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/Function/DoraemonTimeProfilerCore.c; sourceTree = "<group>"; };
+		9A024BC2A3C01619224A40EBDC0882EC /* DoraemonTimeProfilerCore.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = DoraemonTimeProfilerCore.c; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/Function/DoraemonTimeProfilerCore.c; sourceTree = "<group>"; };
 		9A216FAA6C1CCCB1F517222DA183B818 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
 		9A27CC25615323813A3892F71A7381B5 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
 		9A7CF6BE1400383DB7909702195DDB87 /* ImageContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContext.swift; path = Sources/SwiftUI/ImageContext.swift; sourceTree = "<group>"; };
@@ -2210,7 +2211,7 @@
 		9D0060EFF5C48D03FA94ACB0876C7371 /* DoraemonDBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonDBManager.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/Sanbox/Util/DoraemonDBManager.h; sourceTree = "<group>"; };
 		9D335950A7EB5A5DB1595C4B8557A0DD /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
 		9D8089C9E061D5CBD8E8C264EC9C8F93 /* DoraemonMemoryUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMemoryUtil.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/Memory/Function/DoraemonMemoryUtil.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB570442605D8E6373D741DA347265E /* JXSegmentedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedView.swift; path = Sources/Core/JXSegmentedView.swift; sourceTree = "<group>"; };
 		9DD402027F29BF998A2332199438CC78 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = iOS/DoraemonKit/Resource/Assets.xcassets; sourceTree = "<group>"; };
 		9E3921F192180120A9393408430E379C /* DoraemonPingThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonPingThread.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/ANR/Function/DoraemonPingThread.m; sourceTree = "<group>"; };
@@ -2229,16 +2230,16 @@
 		A134914CCB9797AA7E8EDCA8008D03D0 /* IQKeyboardToolbarManager+Toolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardToolbarManager+Toolbar.swift"; path = "IQKeyboardToolbarManager/Classes/Toolbar/IQKeyboardToolbarManager+Toolbar.swift"; sourceTree = "<group>"; };
 		A1488B62F452BCF9B4B0BFA702BFE435 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
 		A15CBEEC2CCEFAC0A7D189FCEE1228C0 /* UIView+RespondersObjc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RespondersObjc.swift"; path = "IQKeyboardToolbarManager/Classes/UIKitExtensions/UIView+RespondersObjc.swift"; sourceTree = "<group>"; };
-		A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar-IQKeyboardToolbar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "IQKeyboardToolbar-IQKeyboardToolbar"; path = IQKeyboardToolbar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQKeyboardToolbar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BB732C9EA0CDEA91127A4EFA191549 /* Query+with.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Query+with.swift"; path = "Sources/SQLite/Typed/Query+with.swift"; sourceTree = "<group>"; };
 		A1C4AA928E2FE15D815F3E58E7AAFD2E /* AxisBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisBase.swift; path = Source/Charts/Components/AxisBase.swift; sourceTree = "<group>"; };
 		A1FDAFD4813E028B70969C4A71DB27E1 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
 		A300B45920484CD11D6C98BAFFB80B0A /* DoraemonQRScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonQRScanView.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/H5/QRCode/DoraemonQRScanView.m; sourceTree = "<group>"; };
 		A31CF834FF80A732ABADFE49CAEB4F61 /* DoraemonWeakNetworkWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonWeakNetworkWindow.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/WeakNetwork/View/Window/DoraemonWeakNetworkWindow.m; sourceTree = "<group>"; };
 		A35FF0AFC9383F3AEF93611C7B29AE99 /* DoraemonNSLogListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNSLogListCell.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSLog/List/DoraemonNSLogListCell.m; sourceTree = "<group>"; };
-		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BA40ECFAD7167BF4408B13D9384D0E /* DoraemonFPSUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonFPSUtil.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/FPS/Function/DoraemonFPSUtil.m; sourceTree = "<group>"; };
-		A3D30211B199757A7A2F0AC792234325 /* DGCharts */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DGCharts; path = DGCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D30211B199757A7A2F0AC792234325 /* DGCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A420630051FF7C56FE71F29EC5332869 /* DoraemonHealthStartingTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonHealthStartingTitle.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Health/View/Home/Detail/DoraemonHealthStartingTitle.m; sourceTree = "<group>"; };
 		A447E14A5868C604C90CAC772BAD5C1B /* CandleChartDataSetProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataSetProtocol.swift; path = Source/Charts/Data/Interfaces/CandleChartDataSetProtocol.swift; sourceTree = "<group>"; };
 		A467D4D16A2C4FA3E8693586C48E0C35 /* DoraemonMockUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockUtil.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/Function/DoraemonMockUtil.m; sourceTree = "<group>"; };
@@ -2265,7 +2266,7 @@
 		AA0E7C16FCF2EA75AD1C195262CB66E5 /* RequestTypeWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTypeWrapper.swift; path = Sources/Moya/RequestTypeWrapper.swift; sourceTree = "<group>"; };
 		AABB45726601E6F136D7984DC84F7DB9 /* DoraemonAppInfoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonAppInfoCell.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/AppInfo/DoraemonAppInfoCell.h; sourceTree = "<group>"; };
 		AAFF802D44A58DAED308EBA86588799C /* UIColor+Doraemon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Doraemon.m"; path = "iOS/DoraemonKit/Src/Core/Category/UIColor+Doraemon.m"; sourceTree = "<group>"; };
-		AB09B7A60B45E9AD8BB760F3F3FDFAE1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = privacy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AB09B7A60B45E9AD8BB760F3F3FDFAE1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = privacy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AB4319401DE5951A600628AEFE9482FC /* DoraemonMockFilterTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockFilterTableCell.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/Filter/DoraemonMockFilterTableCell.m; sourceTree = "<group>"; };
 		AB79CBA28AF84ABC886FEFCC00DAAA60 /* DoraemonANRTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonANRTool.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/ANR/Function/DoraemonANRTool.m; sourceTree = "<group>"; };
 		AB99A1385B10C7ECBB0077ECA594CF54 /* CandleStickChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartView.swift; path = Source/Charts/Charts/CandleStickChartView.swift; sourceTree = "<group>"; };
@@ -2290,7 +2291,7 @@
 		AFE0589E0158E808001B28544E1B726D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AFF35B0A4840B621C15A01E9044A6CD7 /* XAxisRendererRadarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRendererRadarChart.swift; path = Source/Charts/Renderers/XAxisRendererRadarChart.swift; sourceTree = "<group>"; };
 		B01A0C2F425466C264F9F6D09338A92C /* LegendRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegendRenderer.swift; path = Source/Charts/Renderers/LegendRenderer.swift; sourceTree = "<group>"; };
-		B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts-DGCharts */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DGCharts-DGCharts"; path = DGCharts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGCharts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A39C74B0A2CEFF73A80E26680C144C /* JXSegmentedBaseItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedBaseItemModel.swift; path = Sources/Core/JXSegmentedBaseItemModel.swift; sourceTree = "<group>"; };
 		B0C1F619F8C5751E65BECE788FBC0D91 /* DoraemonThreadSafeMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonThreadSafeMutableArray.h; path = iOS/DoraemonKit/Src/Core/Util/DoraemonThreadSafeMutableArray.h; sourceTree = "<group>"; };
 		B0DCD14ADA4429660C938F815024E926 /* WKWebView+Doraemon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+Doraemon.h"; path = "iOS/DoraemonKit/Src/Core/Plugin/Performance/VCProfiler/WKWebView+Doraemon.h"; sourceTree = "<group>"; };
@@ -2309,7 +2310,7 @@
 		B466C5AD4D9AD0C9FD3D88D336EE19D7 /* DoraemonMockBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockBaseModel.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/Model/DoraemonMockBaseModel.m; sourceTree = "<group>"; };
 		B49E790145959A78B0605DE5E9C3813F /* PieChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/PieChartDataEntry.swift; sourceTree = "<group>"; };
 		B4A2DFECD69CEBAFA8E8C28B11292758 /* ImageDownloader+LivePhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageDownloader+LivePhoto.swift"; path = "Sources/Networking/ImageDownloader+LivePhoto.swift"; sourceTree = "<group>"; };
-		B4B1A58096F15199A14069C5D6AA1C99 /* IQKeyboardToolbar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardToolbar; path = IQKeyboardToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B1A58096F15199A14069C5D6AA1C99 /* IQKeyboardToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E326D4350C992CAF30E1BBD317CF6F /* DisplayLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplayLink.swift; path = Sources/Utility/DisplayLink.swift; sourceTree = "<group>"; };
 		B4FF4A41BF9B819A15E98A0A31B9277A /* DoraemonNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNavigationController.m; path = iOS/DoraemonKit/Src/Core/Entry/Home/DoraemonNavigationController.m; sourceTree = "<group>"; };
 		B5068F07178C901596BFDBD5CF1CB389 /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
@@ -2320,7 +2321,7 @@
 		B6581CC2F3E0E9B4DFBA1EBBB1E44BC5 /* GCDWebDAVServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebDAVServer.h; path = GCDWebDAVServer/GCDWebDAVServer.h; sourceTree = "<group>"; };
 		B65F772867D3BA60ECE87B60D8803D2A /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/Moya/AnyEncodable.swift; sourceTree = "<group>"; };
 		B6723F97CC6081698345861F774F2577 /* UploadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadRequest.swift; path = Source/Core/UploadRequest.swift; sourceTree = "<group>"; };
-		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B697487207D22007738A5AC25402D327 /* DGCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DGCharts-Info.plist"; sourceTree = "<group>"; };
 		B75C575AC839655EDA082440CD65E815 /* DoraemonDBCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonDBCell.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/Sanbox/VC/DB/DoraemonDBCell.h; sourceTree = "<group>"; };
 		B7BAF7FB32D8A7AA733381795798D1BA /* LineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift; sourceTree = "<group>"; };
@@ -2333,7 +2334,7 @@
 		B9278068A07A002199DC4F6ABA8C0F21 /* DoraemonNSLogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNSLogViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSLog/DoraemonNSLogViewController.m; sourceTree = "<group>"; };
 		B93D1197386976CFC4D901C9D5A090BB /* ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist"; sourceTree = "<group>"; };
 		B991E5373018F360C2711F1D7A869B7A /* JXPagingMainTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPagingMainTableView.swift; path = Sources/JXPagingView/JXPagingMainTableView.swift; sourceTree = "<group>"; };
-		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SnapKit-SnapKit_Privacy"; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE15DE72FA8882DF3EE90E3053CB0B /* DoraemonNetFlowListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNetFlowListViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/List/DoraemonNetFlowListViewController.h; sourceTree = "<group>"; };
 		BA8E7890401DE045950DD05D1DB956BF /* DoraemonTimeProfilerRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonTimeProfilerRecord.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/Function/DoraemonTimeProfilerRecord.m; sourceTree = "<group>"; };
 		BAAD83E4EF827E3A0D97BB112A2791C2 /* PieRadarChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarChartViewBase.swift; path = Source/Charts/Charts/PieRadarChartViewBase.swift; sourceTree = "<group>"; };
@@ -2375,12 +2376,12 @@
 		C2647BFBE4FF3D8CF237E79F08A354A3 /* DoraemonDBTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonDBTableViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/Sanbox/VC/DB/DoraemonDBTableViewController.m; sourceTree = "<group>"; };
 		C26C5009C16643F0F6C0527E122D18FE /* DoraemonEnumDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonEnumDescription.m; path = iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/Function/DoraemonEnumDescription.m; sourceTree = "<group>"; };
 		C27F2C87DDD0CD3B087E3BF1A234E126 /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPListItem+Kingfisher.swift"; path = "Sources/Extensions/CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
-		C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Kingfisher-Kingfisher"; path = Kingfisher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kingfisher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E2751B0717DE471D31E32174493896 /* DoraemonNetFlowHttpModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNetFlowHttpModel.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/Function/DoraemonNetFlowHttpModel.m; sourceTree = "<group>"; };
 		C35E21A4A3812FB4A552098C97DEDF4E /* PieRadarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarHighlighter.swift; path = Source/Charts/Highlight/PieRadarHighlighter.swift; sourceTree = "<group>"; };
 		C36ECEECBDD01FEBEA77E206C9D40A75 /* IQKeyboardToolbarPlaceholderConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardToolbarPlaceholderConfiguration.swift; path = IQKeyboardToolbar/Classes/Placeholder/IQKeyboardToolbarPlaceholderConfiguration.swift; sourceTree = "<group>"; };
 		C398A4541C61EEBA6DDAFC6F90AF51CE /* UIView+IQKeyboardExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+IQKeyboardExtension.swift"; path = "IQKeyboardToolbar/Classes/IQKeyboardExtension/UIView+IQKeyboardExtension.swift"; sourceTree = "<group>"; };
-		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DC9BF66690E5F767337C44A267B41E /* Platform+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Accessibility.swift"; path = "Source/Charts/Utils/Platform+Accessibility.swift"; sourceTree = "<group>"; };
 		C4FF77A3E707A308430A5CC7CCD8B85A /* DoraemonVisualInfoWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonVisualInfoWindow.h; path = iOS/DoraemonKit/Src/Core/CommonUI/Visual/DoraemonVisualInfoWindow.h; sourceTree = "<group>"; };
 		C524775A62DF5A64F77FF5023B0C1837 /* ShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/ShapeRenderer.swift; sourceTree = "<group>"; };
@@ -2435,7 +2436,7 @@
 		D07E6EB015DFB95AB5DB20DE19E24FA5 /* doraemon_fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = doraemon_fishhook.h; path = iOS/DoraemonKit/Src/Core/Util/fishhook/doraemon_fishhook.h; sourceTree = "<group>"; };
 		D12429326993C6316ACAD383C66F3882 /* DoraemonLargeImageDetectionListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonLargeImageDetectionListViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/LargeImageDetection/Detail/DoraemonLargeImageDetectionListViewController.m; sourceTree = "<group>"; };
 		D181F3EDDDEE26F2CF792E3DC9E8ED47 /* IQKeyboardToolbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardToolbar.debug.xcconfig; sourceTree = "<group>"; };
-		D1896D9851F43425DB6409A9170E0354 /* DoraemonKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DoraemonKit; path = DoraemonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1896D9851F43425DB6409A9170E0354 /* DoraemonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoraemonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AF7CCD4A9BD9570650A72683376D83 /* IndexAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexAxisValueFormatter.swift; path = Source/Charts/Formatters/IndexAxisValueFormatter.swift; sourceTree = "<group>"; };
 		D20BA1EFBA08AB0982D8AC3E089A4A7C /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		D21D6DA2AA7993923E83717620CF88E5 /* DoraemonSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonSettingViewController.h; path = iOS/DoraemonKit/Src/Core/Entry/Home/Settings/DoraemonSettingViewController.h; sourceTree = "<group>"; };
@@ -2572,7 +2573,7 @@
 		EEAF59FF77DD1DF65AE7AF1AB49792DA /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
 		EEBE049913E5793556D730D6A67DDB91 /* DoraemonViewCheckView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonViewCheckView.h; path = iOS/DoraemonKit/Src/Core/Plugin/UI/ViewCheck/Function/DoraemonViewCheckView.h; sourceTree = "<group>"; };
 		EF16264F5632886F1D6104B4CDC8BFF6 /* DoraemonLargeImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonLargeImageViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/LargeImageDetection/DoraemonLargeImageViewController.m; sourceTree = "<group>"; };
-		EF6A98E8494BAC9360FC9198018F4A6A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQKeyboardToolbar/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EF6A98E8494BAC9360FC9198018F4A6A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IQKeyboardToolbar/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		EF8F94574BB6D4BFA0A1833A81FBEEDF /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		EFD8EC1796851143CB9F358E43119476 /* UIViewController+DoraemonHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DoraemonHierarchy.m"; path = "iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/Function/Category/UIViewController+DoraemonHierarchy.m"; sourceTree = "<group>"; };
 		F040B98911AAC9F81FE81F3997BCE0FE /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
@@ -2608,7 +2609,7 @@
 		F5BCD612B8D990149CBF9C4B3EAF1B16 /* ChartLimitLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartLimitLine.swift; path = Source/Charts/Components/ChartLimitLine.swift; sourceTree = "<group>"; };
 		F5CBAF6A3D0B3481FAB3816DC2A43B9D /* DoraemonFPSOscillogramViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonFPSOscillogramViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/FPS/Function/DoraemonFPSOscillogramViewController.m; sourceTree = "<group>"; };
 		F5F878ACC53AE4E0A0476F426DC2EA43 /* DoraemonANRListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonANRListViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/ANR/List/DoraemonANRListViewController.m; sourceTree = "<group>"; };
-		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.swift; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F669B25E0EB9A573CDF2A213A53C07AA /* DoraemonHierarchyTitleCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonHierarchyTitleCell.m; path = iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/UserInterface/Cell/DoraemonHierarchyTitleCell.m; sourceTree = "<group>"; };
 		F6726FF4197352EA8F3EB350D8FA278B /* DoraemonHomeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonHomeCell.h; path = iOS/DoraemonKit/Src/Core/Entry/Home/Cell/DoraemonHomeCell.h; sourceTree = "<group>"; };
 		F6DA8CFA133C032829CBF6D057274138 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
@@ -2618,11 +2619,11 @@
 		F71CA118A4CC8D4ED86B1BB2C8622111 /* PieChartDataSetProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataSetProtocol.swift; path = Source/Charts/Data/Interfaces/PieChartDataSetProtocol.swift; sourceTree = "<group>"; };
 		F728EBCA918D64B9EEE2B0A528B58412 /* DoraemonHomeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonHomeWindow.h; path = iOS/DoraemonKit/Src/Core/Entry/Home/DoraemonHomeWindow.h; sourceTree = "<group>"; };
 		F72939765DCE3E60CF35AD79A361C5C9 /* DoraemonMockDataPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockDataPreviewViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/VC/Preview/DoraemonMockDataPreviewViewController.m; sourceTree = "<group>"; };
-		F72C75B492F089FFA7CA7630DCDC28D1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F72C75B492F089FFA7CA7630DCDC28D1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F77B674C6CB243D9192898C692F3C3C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F785D6F74149C2BFD9C22D8B90698D9A /* IQKeyboardToolbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardToolbar-Info.plist"; sourceTree = "<group>"; };
-		F7875D1547090255906C0F56592216F9 /* Documentation.docc */ = {isa = PBXFileReference; includeInIndex = 1; name = Documentation.docc; path = Sources/Documentation.docc; sourceTree = "<group>"; };
-		F7A252D454B1A4DA6587ACB1A3755F01 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQKeyboardToolbarManager/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F7875D1547090255906C0F56592216F9 /* Documentation.docc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.documentationcatalog; name = Documentation.docc; path = Sources/Documentation.docc; sourceTree = "<group>"; };
+		F7A252D454B1A4DA6587ACB1A3755F01 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IQKeyboardToolbarManager/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F7F68963B5207924D4E739758C04AA32 /* NSURL+scheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+scheme.m"; path = "DebugDatabase/NSURL+scheme.m"; sourceTree = "<group>"; };
 		F80E2FB6B1B3C33230170838A080D6DD /* BubbleChartDataSetProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataSetProtocol.swift; path = Source/Charts/Data/Interfaces/BubbleChartDataSetProtocol.swift; sourceTree = "<group>"; };
 		F813107C0479B7650BF54569CCCCAFB9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/SQLite/Core/Result.swift; sourceTree = "<group>"; };
@@ -2635,7 +2636,7 @@
 		F90040C895537DE10F3A321C3A67F9E2 /* URIQueryParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URIQueryParameter.swift; path = Sources/SQLite/Core/URIQueryParameter.swift; sourceTree = "<group>"; };
 		F924B76650889BCDD54FB5CBCDA0BECC /* DoraemonQRCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonQRCodeViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/H5/DoraemonQRCodeViewController.h; sourceTree = "<group>"; };
 		F950D2DA579E5719E6E308E72349D47D /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification-IQTextInputViewNotification */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "IQTextInputViewNotification-IQTextInputViewNotification"; path = IQTextInputViewNotification.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQTextInputViewNotification.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96004B531FF8CC659F3614025CDA9CC /* DoraemonLargeImagePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonLargeImagePlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/LargeImageDetection/DoraemonLargeImagePlugin.h; sourceTree = "<group>"; };
 		F967C59CB797F77DDC6798A619066670 /* Platform+Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Color.swift"; path = "Source/Charts/Utils/Platform+Color.swift"; sourceTree = "<group>"; };
 		F97AC3BCC877B611CE0063B214E6A20A /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
@@ -2643,7 +2644,7 @@
 		FA06A90726F214183ADEFB5A49185FA1 /* DoraemonDeleteLocalDataViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonDeleteLocalDataViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/DeleteLocalData/DoraemonDeleteLocalDataViewController.m; sourceTree = "<group>"; };
 		FA32B0373B2E7A696896BDC8101E9CFC /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
 		FA4A7385A1EF5B954BE8548C6B87651A /* JXSegmentedBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedBaseCell.swift; path = Sources/Core/JXSegmentedBaseCell.swift; sourceTree = "<group>"; };
-		FA727BF5D9541C98C22C9ECC911576E2 /* IQKeyboardToolbarManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardToolbarManager; path = IQKeyboardToolbarManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA727BF5D9541C98C22C9ECC911576E2 /* IQKeyboardToolbarManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardToolbarManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA869683D89142BCCD81B3C15995AA79 /* JXSegmentedView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXSegmentedView.release.xcconfig; sourceTree = "<group>"; };
 		FAE6A91846E296CBA30F3AF44B808906 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
 		FAF18467F59699AAE1E1BB3F05F05922 /* BubbleChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartView.swift; path = Source/Charts/Charts/BubbleChartView.swift; sourceTree = "<group>"; };
@@ -2657,7 +2658,7 @@
 		FBAECFB73266ED7063422260B332AE6F /* DoraemonViewAlignView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonViewAlignView.m; path = iOS/DoraemonKit/Src/Core/Plugin/UI/ViewAlign/Function/DoraemonViewAlignView.m; sourceTree = "<group>"; };
 		FBE228741F871B1430D2F2B93C91F38B /* DoraemonNetFlowOscillogramViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNetFlowOscillogramViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/Function/View/DoraemonNetFlowOscillogramViewController.h; sourceTree = "<group>"; };
 		FC210966A7BF9EE0D7EC4FE6B753A455 /* DoraemonHierarchyCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonHierarchyCellModel.h; path = iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/UserInterface/Model/DoraemonHierarchyCellModel.h; sourceTree = "<group>"; };
-		FC7F0CF2EA5DF59C59D9995890DA5C47 /* IQKeyboardCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardCore; path = IQKeyboardCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7F0CF2EA5DF59C59D9995890DA5C47 /* IQKeyboardCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9CB142DFCA8CC61EEDAFECB7827525 /* JXSegmentedBaseDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedBaseDataSource.swift; path = Sources/Core/JXSegmentedBaseDataSource.swift; sourceTree = "<group>"; };
 		FCAAB40F5ECDD94770A1B66734823D4B /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/Features/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		FD805C4B10F38B82F814EBB5E64FBFDC /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
@@ -2990,7 +2991,6 @@
 				FBDF0072FC521820D27D2ACDD8EC63A2 /* Resources */,
 				FCAA3EAE4CC616E1C16E8E5830A4011A /* Support Files */,
 			);
-			name = IQKeyboardCore;
 			path = IQKeyboardCore;
 			sourceTree = "<group>";
 		};
@@ -3042,7 +3042,6 @@
 				173D630D02C9C5C6EA4D54C97B77630B /* Core */,
 				BD01E188222EE7251EF279BCCF489B1E /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -3083,43 +3082,42 @@
 				5B4AADA3148950F4BF7401B0813FF72E /* Resources */,
 				F78407F76BCDE45029481139BB552FA0 /* Support Files */,
 			);
-			name = IQKeyboardToolbarManager;
 			path = IQKeyboardToolbarManager;
 			sourceTree = "<group>";
 		};
 		1ABC375F8887157976BB3F473EE82796 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */,
-				A3D30211B199757A7A2F0AC792234325 /* DGCharts */,
-				B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts-DGCharts */,
-				D1896D9851F43425DB6409A9170E0354 /* DoraemonKit */,
-				0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit-DoraemonKit */,
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
-				148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB-FMDB_Privacy */,
-				95209B8BB966524BC76543F99C75F5FE /* FSCalendar */,
-				B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */,
-				FC7F0CF2EA5DF59C59D9995890DA5C47 /* IQKeyboardCore */,
-				6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore-IQKeyboardCore */,
-				B4B1A58096F15199A14069C5D6AA1C99 /* IQKeyboardToolbar */,
-				A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar-IQKeyboardToolbar */,
-				FA727BF5D9541C98C22C9ECC911576E2 /* IQKeyboardToolbarManager */,
-				80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager-IQKeyboardToolbarManager */,
-				06E5B413FEA5A600D76636DA132F8FB9 /* IQTextInputViewNotification */,
-				F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification-IQTextInputViewNotification */,
-				2F4A1CCB21DB7EA5A2ACEB11E374FBCA /* JXPagingView */,
-				7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView-JXPagingView */,
-				07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView */,
-				92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */,
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
-				C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */,
-				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya */,
-				825849EEFE7ADC947E0672BAC39BBE5C /* Pods-PerfectKitchen */,
-				979486118B3E90C08386079D57962701 /* SnapKit */,
-				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */,
-				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.swift */,
-				68C830138F9C12DE15D50CCB0BB79279 /* YYDebugDatabase */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */,
+				A3D30211B199757A7A2F0AC792234325 /* DGCharts.framework */,
+				B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts.bundle */,
+				D1896D9851F43425DB6409A9170E0354 /* DoraemonKit.framework */,
+				0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit.bundle */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB_Privacy.bundle */,
+				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
+				B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */,
+				FC7F0CF2EA5DF59C59D9995890DA5C47 /* IQKeyboardCore.framework */,
+				6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore.bundle */,
+				B4B1A58096F15199A14069C5D6AA1C99 /* IQKeyboardToolbar.framework */,
+				A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar.bundle */,
+				FA727BF5D9541C98C22C9ECC911576E2 /* IQKeyboardToolbarManager.framework */,
+				80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager.bundle */,
+				06E5B413FEA5A600D76636DA132F8FB9 /* IQTextInputViewNotification.framework */,
+				F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification.bundle */,
+				2F4A1CCB21DB7EA5A2ACEB11E374FBCA /* JXPagingView.framework */,
+				7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView.bundle */,
+				07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView.framework */,
+				92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView.bundle */,
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
+				C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */,
+				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */,
+				825849EEFE7ADC947E0672BAC39BBE5C /* Pods_PerfectKitchen.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */,
+				68C830138F9C12DE15D50CCB0BB79279 /* YYDebugDatabase.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3143,7 +3141,6 @@
 				97C227CE10ECB2AA109204E4628F11FD /* Resources */,
 				20F7E9FFDB6075E2BC83BBAE44580E9D /* Support Files */,
 			);
-			name = YYDebugDatabase;
 			path = YYDebugDatabase;
 			sourceTree = "<group>";
 		};
@@ -3153,7 +3150,6 @@
 				133339DCEFAB0B9D947A4587BAA9B54C /* standard */,
 				DBFC686FA4F50BE9154323DB69AA99AD /* Support Files */,
 			);
-			name = SQLite.swift;
 			path = SQLite.swift;
 			sourceTree = "<group>";
 		};
@@ -3188,7 +3184,6 @@
 				3BDE38708BF0A33712EAE7CBB90EE3AB /* Resources */,
 				3C144BC458C88FF0F2C7B8FE9E34DAE9 /* Support Files */,
 			);
-			name = IQTextInputViewNotification;
 			path = IQTextInputViewNotification;
 			sourceTree = "<group>";
 		};
@@ -3241,7 +3236,6 @@
 				766D058DB221627BFD62D4F561A07BF1 /* Paging */,
 				0F0A179CB21C8217590C65E9D49D17D9 /* Support Files */,
 			);
-			name = JXPagingView;
 			path = JXPagingView;
 			sourceTree = "<group>";
 		};
@@ -3796,7 +3790,6 @@
 				629B95D7E4C2B81E89DE5B863A710DCD /* Core */,
 				A5838E25C4B2AB4A80F2DD90CAF3D176 /* Support Files */,
 			);
-			name = Moya;
 			path = Moya;
 			sourceTree = "<group>";
 		};
@@ -3869,7 +3862,6 @@
 				3273D001300EDCEAC6BD00F0F46BC103 /* Resources */,
 				10867BD8FC9B2907A5303551C2D90AD8 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -4265,7 +4257,6 @@
 				8967B04B1A2DE95086D808C207E09ED4 /* Resources */,
 				E0C7BBC5E2A95088A40C89465B08A95E /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -4335,7 +4326,6 @@
 				D6E364E6F13767161A8030DFC9F1E753 /* Resources */,
 				D5885130A0826F702F9D9D3BC4382E58 /* Support Files */,
 			);
-			name = JXSegmentedView;
 			path = JXSegmentedView;
 			sourceTree = "<group>";
 		};
@@ -4378,7 +4368,6 @@
 				3A73DFA970759CAABE3A508D7EF6448C /* WebDAV */,
 				02F7E622C8D5AD62C74ED4AA2A021DD6 /* WebUploader */,
 			);
-			name = GCDWebServer;
 			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
@@ -4426,7 +4415,6 @@
 				0E5C3889A82071DB18B74871EB574020 /* FSCalendarWeekdayView.m */,
 				D629D3A1B04AB42A76625621F6594828 /* Support Files */,
 			);
-			name = FSCalendar;
 			path = FSCalendar;
 			sourceTree = "<group>";
 		};
@@ -4478,7 +4466,6 @@
 				2768A984F8459A9AB7F4BE84F02F8D43 /* Resources */,
 				5A0CD81C201C0F329C2ADAAC73A4A419 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -4532,7 +4519,6 @@
 				6F54FE3963A1E2205FB9A6D6E6F5CDC9 /* Resources */,
 				DF90D511659B8AFA7FD46B2908FBF782 /* Support Files */,
 			);
-			name = IQKeyboardToolbar;
 			path = IQKeyboardToolbar;
 			sourceTree = "<group>";
 		};
@@ -4579,7 +4565,6 @@
 			children = (
 				352005682CE603EEFD608940E798BFBF /* Support Files */,
 			);
-			name = SwiftGen;
 			path = SwiftGen;
 			sourceTree = "<group>";
 		};
@@ -4659,7 +4644,6 @@
 				4FBCB81CB8C0218A54292F66C262C903 /* Resources */,
 				E9272CD545066C790162723F72BC67F9 /* Support Files */,
 			);
-			name = DGCharts;
 			path = DGCharts;
 			sourceTree = "<group>";
 		};
@@ -4694,7 +4678,6 @@
 				9EEEE7946FFABD49CDBA1B562C6591E1 /* Support Files */,
 				3AAEBAD36DF387656A4543104545F787 /* WithDatabase */,
 			);
-			name = DoraemonKit;
 			path = DoraemonKit;
 			sourceTree = "<group>";
 		};
@@ -5226,7 +5209,7 @@
 			);
 			name = IQKeyboardToolbarManager;
 			productName = IQKeyboardToolbarManager;
-			productReference = FA727BF5D9541C98C22C9ECC911576E2 /* IQKeyboardToolbarManager */;
+			productReference = FA727BF5D9541C98C22C9ECC911576E2 /* IQKeyboardToolbarManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */ = {
@@ -5244,7 +5227,7 @@
 			);
 			name = FSCalendar;
 			productName = FSCalendar;
-			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar */;
+			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		17F9141D333DA1A7BE5937F227221070 /* Moya */ = {
@@ -5263,7 +5246,7 @@
 			);
 			name = Moya;
 			productName = Moya;
-			productReference = 3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya */;
+			productReference = 3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
@@ -5282,7 +5265,7 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1C740322617D8EE2F874BD31781B7702 /* DoraemonKit */ = {
@@ -5304,7 +5287,7 @@
 			);
 			name = DoraemonKit;
 			productName = DoraemonKit;
-			productReference = D1896D9851F43425DB6409A9170E0354 /* DoraemonKit */;
+			productReference = D1896D9851F43425DB6409A9170E0354 /* DoraemonKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		283C1F2EA88CD4413165801A6748A48E /* IQTextInputViewNotification */ = {
@@ -5324,7 +5307,7 @@
 			);
 			name = IQTextInputViewNotification;
 			productName = IQTextInputViewNotification;
-			productReference = 06E5B413FEA5A600D76636DA132F8FB9 /* IQTextInputViewNotification */;
+			productReference = 06E5B413FEA5A600D76636DA132F8FB9 /* IQTextInputViewNotification.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
@@ -5342,7 +5325,7 @@
 			);
 			name = SQLite.swift;
 			productName = SQLite;
-			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.swift */;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4502C7427440BEB17A50C0BF6E638A85 /* IQTextInputViewNotification-IQTextInputViewNotification */ = {
@@ -5359,7 +5342,7 @@
 			);
 			name = "IQTextInputViewNotification-IQTextInputViewNotification";
 			productName = IQTextInputViewNotification;
-			productReference = F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification-IQTextInputViewNotification */;
+			productReference = F956E149F5B195BB7833F97FC6211AE8 /* IQTextInputViewNotification.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		4D483752CFF08AAB690E11F6B6AEB9B7 /* Pods-PerfectKitchen */ = {
@@ -5395,7 +5378,7 @@
 			);
 			name = "Pods-PerfectKitchen";
 			productName = Pods_PerfectKitchen;
-			productReference = 825849EEFE7ADC947E0672BAC39BBE5C /* Pods-PerfectKitchen */;
+			productReference = 825849EEFE7ADC947E0672BAC39BBE5C /* Pods_PerfectKitchen.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		52F43AC38D9FF80196C69FB03AEEFDDA /* JXSegmentedView-JXSegmentedView */ = {
@@ -5412,7 +5395,7 @@
 			);
 			name = "JXSegmentedView-JXSegmentedView";
 			productName = JXSegmentedView;
-			productReference = 92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */;
+			productReference = 92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		759D0F22224FF87BBDA4723538A5F811 /* DGCharts */ = {
@@ -5431,7 +5414,7 @@
 			);
 			name = DGCharts;
 			productName = DGCharts;
-			productReference = A3D30211B199757A7A2F0AC792234325 /* DGCharts */;
+			productReference = A3D30211B199757A7A2F0AC792234325 /* DGCharts.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7C5613175BBC4BF67E36DB4FBEBC01D0 /* IQKeyboardToolbarManager-IQKeyboardToolbarManager */ = {
@@ -5448,7 +5431,7 @@
 			);
 			name = "IQKeyboardToolbarManager-IQKeyboardToolbarManager";
 			productName = IQKeyboardToolbarManager;
-			productReference = 80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager-IQKeyboardToolbarManager */;
+			productReference = 80A40EDA3AF0499BDBCFF09467BB49AD /* IQKeyboardToolbarManager.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
@@ -5467,7 +5450,7 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		86F85BD17543B52E78020B4385A7C0C6 /* DoraemonKit-DoraemonKit */ = {
@@ -5484,7 +5467,7 @@
 			);
 			name = "DoraemonKit-DoraemonKit";
 			productName = DoraemonKit;
-			productReference = 0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit-DoraemonKit */;
+			productReference = 0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		88535FD2E9630A47B11685DEC63ABC34 /* YYDebugDatabase */ = {
@@ -5504,7 +5487,7 @@
 			);
 			name = YYDebugDatabase;
 			productName = YYDebugDatabase;
-			productReference = 68C830138F9C12DE15D50CCB0BB79279 /* YYDebugDatabase */;
+			productReference = 68C830138F9C12DE15D50CCB0BB79279 /* YYDebugDatabase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */ = {
@@ -5521,7 +5504,7 @@
 			);
 			name = "SnapKit-SnapKit_Privacy";
 			productName = SnapKit_Privacy;
-			productReference = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */;
+			productReference = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		973B9A51B49701F13767694DCAF5C37D /* FMDB-FMDB_Privacy */ = {
@@ -5538,7 +5521,7 @@
 			);
 			name = "FMDB-FMDB_Privacy";
 			productName = FMDB_Privacy;
-			productReference = 148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB-FMDB_Privacy */;
+			productReference = 148D9AC15C4A9777E5ACBB46C03FE218 /* FMDB_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		976126A1CE06DC6E162563800E1BDF14 /* Alamofire-Alamofire */ = {
@@ -5555,7 +5538,7 @@
 			);
 			name = "Alamofire-Alamofire";
 			productName = Alamofire;
-			productReference = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */;
+			productReference = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		9828BBC09E9FB1238624113D7456E59E /* Kingfisher-Kingfisher */ = {
@@ -5572,7 +5555,7 @@
 			);
 			name = "Kingfisher-Kingfisher";
 			productName = Kingfisher;
-			productReference = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */;
+			productReference = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */ = {
@@ -5590,7 +5573,7 @@
 			);
 			name = GCDWebServer;
 			productName = GCDWebServer;
-			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */;
+			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B247F77A0CD5E19C8187A9BA1EB58C09 /* IQKeyboardToolbar-IQKeyboardToolbar */ = {
@@ -5607,7 +5590,7 @@
 			);
 			name = "IQKeyboardToolbar-IQKeyboardToolbar";
 			productName = IQKeyboardToolbar;
-			productReference = A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar-IQKeyboardToolbar */;
+			productReference = A16FD016E18EACCF6B23F219F2E236FE /* IQKeyboardToolbar.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		B2B2AD5303610D8EBEA025B2660C8EC5 /* JXPagingView-JXPagingView */ = {
@@ -5624,7 +5607,7 @@
 			);
 			name = "JXPagingView-JXPagingView";
 			productName = JXPagingView;
-			productReference = 7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView-JXPagingView */;
+			productReference = 7EB20B4E68CCB69F85E7D08B7F8463D6 /* JXPagingView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		C4E1020AF425614337737213AA26DBD5 /* JXPagingView */ = {
@@ -5643,7 +5626,7 @@
 			);
 			name = JXPagingView;
 			productName = JXPagingView;
-			productReference = 2F4A1CCB21DB7EA5A2ACEB11E374FBCA /* JXPagingView */;
+			productReference = 2F4A1CCB21DB7EA5A2ACEB11E374FBCA /* JXPagingView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E3E4DDB497F163AABDC25A28254F28F9 /* DGCharts-DGCharts */ = {
@@ -5660,7 +5643,7 @@
 			);
 			name = "DGCharts-DGCharts";
 			productName = DGCharts;
-			productReference = B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts-DGCharts */;
+			productReference = B09B3C05ADDB6FD455CE9C0A26AF482B /* DGCharts.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {
@@ -5679,7 +5662,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E863A9A96F52A35F47491E7B41ECEF9A /* JXSegmentedView */ = {
@@ -5698,7 +5681,7 @@
 			);
 			name = JXSegmentedView;
 			productName = JXSegmentedView;
-			productReference = 07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView */;
+			productReference = 07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -5717,7 +5700,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EEE261386011CDF271BE289F73FF5959 /* IQKeyboardCore-IQKeyboardCore */ = {
@@ -5734,7 +5717,7 @@
 			);
 			name = "IQKeyboardCore-IQKeyboardCore";
 			productName = IQKeyboardCore;
-			productReference = 6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore-IQKeyboardCore */;
+			productReference = 6E897F35E5E27028AC58B14B552FBC8D /* IQKeyboardCore.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		F4FE17428FD0E607723A44F17231B7A1 /* IQKeyboardToolbar */ = {
@@ -5754,7 +5737,7 @@
 			);
 			name = IQKeyboardToolbar;
 			productName = IQKeyboardToolbar;
-			productReference = B4B1A58096F15199A14069C5D6AA1C99 /* IQKeyboardToolbar */;
+			productReference = B4B1A58096F15199A14069C5D6AA1C99 /* IQKeyboardToolbar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F9A1BF709B7BA4C24A83664EB1E1C7D4 /* IQKeyboardCore */ = {
@@ -5773,7 +5756,7 @@
 			);
 			name = IQKeyboardCore;
 			productName = IQKeyboardCore;
-			productReference = FC7F0CF2EA5DF59C59D9995890DA5C47 /* IQKeyboardCore */;
+			productReference = FC7F0CF2EA5DF59C59D9995890DA5C47 /* IQKeyboardCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -5795,8 +5778,6 @@
 				"zh-Hans",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 1ABC375F8887157976BB3F473EE82796 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -5849,7 +5830,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0217BD2D535BBE17D651A40D117783C5 /* Kingfisher-Kingfisher in Resources */,
+				0217BD2D535BBE17D651A40D117783C5 /* Kingfisher.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5865,7 +5846,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54824980527B23D6D4598B06A169C5D /* IQKeyboardToolbarManager-IQKeyboardToolbarManager in Resources */,
+				B54824980527B23D6D4598B06A169C5D /* IQKeyboardToolbarManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5881,7 +5862,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0045B41BFE697DB4ADE151228024D2 /* SnapKit-SnapKit_Privacy in Resources */,
+				9E0045B41BFE697DB4ADE151228024D2 /* SnapKit_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5904,7 +5885,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56DA8C19CE479A486209E7C84685240B /* DGCharts-DGCharts in Resources */,
+				56DA8C19CE479A486209E7C84685240B /* DGCharts.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5941,7 +5922,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE9FD143CBC24075601F8FE2ADC4115 /* IQKeyboardCore-IQKeyboardCore in Resources */,
+				6DE9FD143CBC24075601F8FE2ADC4115 /* IQKeyboardCore.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5957,7 +5938,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14CE79CC1E18917687E71DDF7F126560 /* IQTextInputViewNotification-IQTextInputViewNotification in Resources */,
+				14CE79CC1E18917687E71DDF7F126560 /* IQTextInputViewNotification.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5980,7 +5961,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5103A4960162A9E4070B30024E72EF23 /* DoraemonKit-DoraemonKit in Resources */,
+				5103A4960162A9E4070B30024E72EF23 /* DoraemonKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5995,7 +5976,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD127F101529C336A07D45CE1106A54 /* Alamofire-Alamofire in Resources */,
+				5CD127F101529C336A07D45CE1106A54 /* Alamofire.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6003,7 +5984,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF14854F58A20B60C9C3C9003534182 /* JXSegmentedView-JXSegmentedView in Resources */,
+				3EF14854F58A20B60C9C3C9003534182 /* JXSegmentedView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6027,7 +6008,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92891718F1FDC912360C5A4F26D5E500 /* IQKeyboardToolbar-IQKeyboardToolbar in Resources */,
+				92891718F1FDC912360C5A4F26D5E500 /* IQKeyboardToolbar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6043,7 +6024,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87B8D2DD889E0FB70D998BBDB8DDE8B /* JXPagingView-JXPagingView in Resources */,
+				F87B8D2DD889E0FB70D998BBDB8DDE8B /* JXPagingView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6066,7 +6047,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29576A1A20C9F72A0AE086EE81AC8303 /* FMDB-FMDB_Privacy in Resources */,
+				29576A1A20C9F72A0AE086EE81AC8303 /* FMDB_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7329,7 +7310,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/JXPagingView/JXPagingView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -7443,7 +7424,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -7511,7 +7492,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXPagingView";
 				IBSC_MODULE = JXPagingView;
 				INFOPLIST_FILE = "Target Support Files/JXPagingView/ResourceBundle-JXPagingView-JXPagingView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = JXPagingView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7785,7 +7766,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXPagingView";
 				IBSC_MODULE = JXPagingView;
 				INFOPLIST_FILE = "Target Support Files/JXPagingView/ResourceBundle-JXPagingView-JXPagingView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = JXPagingView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7884,7 +7865,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/YYDebugDatabase/YYDebugDatabase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -7962,7 +7943,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/JXPagingView/JXPagingView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -8114,7 +8095,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -8696,7 +8677,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -8893,7 +8874,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9207,7 +9188,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/YYDebugDatabase/YYDebugDatabase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

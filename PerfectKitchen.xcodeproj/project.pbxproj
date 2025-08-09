@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		643C3AD263230A1097F11F7A /* Pods_PerfectKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2AA8A706270AEBA1CC477 /* Pods_PerfectKitchen.framework */; };
 		7B64B1C535F97221A426800C /* Pods_PerfectKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F64CCD9EBD2A78DB3462D54 /* Pods_PerfectKitchen.framework */; };
+		BC7DF88B2E4774C3003EA73A /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF88A2E4774BD003EA73A /* AppConfig.swift */; };
+		BC7DF88D2E4774D1003EA73A /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF88C2E4774C8003EA73A /* APIConfig.swift */; };
+		BC7DF88F2E4774DC003EA73A /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF88E2E4774DA003EA73A /* Keys.swift */; };
 		BCCE168C2E235C6000DCCCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCE16852E235C6000DCCCF6 /* LaunchScreen.storyboard */; };
-		BCCE168D2E235C6000DCCCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCE16872E235C6000DCCCF6 /* Main.storyboard */; };
 		BCCE168E2E235C6000DCCCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCE16822E235C6000DCCCF6 /* Assets.xcassets */; };
 		BCCE168F2E235C6000DCCCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE16812E235C6000DCCCF6 /* AppDelegate.swift */; };
-		BCCE16902E235C6000DCCCF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE16892E235C6000DCCCF6 /* ViewController.swift */; };
 		BCCE16912E235C6000DCCCF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE16882E235C6000DCCCF6 /* SceneDelegate.swift */; };
 		BCCE16EA2E235D1700DCCCF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCCE16E82E235D1700DCCCF6 /* README.md */; };
 		BCCE16EB2E235D1700DCCCF6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE16E32E235D1700DCCCF6 /* APIService.swift */; };
@@ -36,14 +37,15 @@
 		6F64CCD9EBD2A78DB3462D54 /* Pods_PerfectKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B298B047CDAB670CDAEAF9 /* Pods-PerfectKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectKitchen.release.xcconfig"; path = "Target Support Files/Pods-PerfectKitchen/Pods-PerfectKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		B84D2B30806E7C19007ADB37 /* Pods-PerfectKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectKitchen.debug.xcconfig"; path = "Target Support Files/Pods-PerfectKitchen/Pods-PerfectKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7DF88A2E4774BD003EA73A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		BC7DF88C2E4774C8003EA73A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		BC7DF88E2E4774DA003EA73A /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		BCCE15E62E2356AD00DCCCF6 /* PerfectKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCE16812E235C6000DCCCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCCE16822E235C6000DCCCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCE16832E235C6000DCCCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCE16842E235C6000DCCCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BCCE16862E235C6000DCCCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCCE16882E235C6000DCCCF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCCE16892E235C6000DCCCF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCCE16E32E235D1700DCCCF6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		BCCE16E42E235D1700DCCCF6 /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
 		BCCE16E52E235D1700DCCCF6 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -99,6 +101,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC7DF8852E47734B003EA73A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BC7DF8862E477375003EA73A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE16F12E235D6800DCCCF6 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC7DF8872E47738F003EA73A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE17052E236DDD00DCCCF6 /* Database */,
+				BCCE16E92E235D1700DCCCF6 /* API */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC7DF8882E4774A3003EA73A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BC7DF88E2E4774DA003EA73A /* Keys.swift */,
+				BC7DF88C2E4774C8003EA73A /* APIConfig.swift */,
+				BC7DF88A2E4774BD003EA73A /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BC7DF8902E477500003EA73A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE16832E235C6000DCCCF6 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BC7DF8912E477520003EA73A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BCCE15DD2E2356AD00DCCCF6 = {
 			isa = PBXGroup;
 			children = (
@@ -120,33 +171,33 @@
 		BCCE168A2E235C6000DCCCF6 /* PerfectKitchen */ = {
 			isa = PBXGroup;
 			children = (
-				BCCE16922E235C7900DCCCF6 /* AppDelegate */,
+				BCCE16922E235C7900DCCCF6 /* App */,
+				BC7DF8882E4774A3003EA73A /* Config */,
+				BC7DF8912E477520003EA73A /* Models */,
+				BC7DF8872E47738F003EA73A /* Services */,
+				BC7DF8852E47734B003EA73A /* Modules */,
+				BC7DF8862E477375003EA73A /* Utils */,
 				BCCE16F02E235D5700DCCCF6 /* Base */,
-				BCCE16F12E235D6800DCCCF6 /* Extension */,
 				BCCE16932E235CBF00DCCCF6 /* Resource */,
-				BCCE16E92E235D1700DCCCF6 /* API */,
-				BCCE17052E236DDD00DCCCF6 /* Database */,
-				BCCE16822E235C6000DCCCF6 /* Assets.xcassets */,
-				BCCE16832E235C6000DCCCF6 /* Info.plist */,
-				BCCE16852E235C6000DCCCF6 /* LaunchScreen.storyboard */,
-				BCCE16872E235C6000DCCCF6 /* Main.storyboard */,
-				BCCE16892E235C6000DCCCF6 /* ViewController.swift */,
+				BC7DF8902E477500003EA73A /* SupportingFiles */,
 			);
 			path = PerfectKitchen;
 			sourceTree = "<group>";
 		};
-		BCCE16922E235C7900DCCCF6 /* AppDelegate */ = {
+		BCCE16922E235C7900DCCCF6 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				BCCE16812E235C6000DCCCF6 /* AppDelegate.swift */,
 				BCCE16882E235C6000DCCCF6 /* SceneDelegate.swift */,
+				BCCE16852E235C6000DCCCF6 /* LaunchScreen.storyboard */,
 			);
-			path = AppDelegate;
+			path = App;
 			sourceTree = "<group>";
 		};
 		BCCE16932E235CBF00DCCCF6 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BCCE16822E235C6000DCCCF6 /* Assets.xcassets */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -256,7 +307,6 @@
 			files = (
 				BCCE168C2E235C6000DCCCF6 /* LaunchScreen.storyboard in Resources */,
 				BCCE16EA2E235D1700DCCCF6 /* README.md in Resources */,
-				BCCE168D2E235C6000DCCCF6 /* Main.storyboard in Resources */,
 				BCCE168E2E235C6000DCCCF6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +322,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PerfectKitchen/Pods-PerfectKitchen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PerfectKitchen/Pods-PerfectKitchen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -311,11 +365,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCCE168F2E235C6000DCCCF6 /* AppDelegate.swift in Sources */,
-				BCCE16902E235C6000DCCCF6 /* ViewController.swift in Sources */,
+				BC7DF88B2E4774C3003EA73A /* AppConfig.swift in Sources */,
 				BCCE16EB2E235D1700DCCCF6 /* APIService.swift in Sources */,
 				BCCE16EC2E235D1700DCCCF6 /* NetworkAPI.swift in Sources */,
+				BC7DF88D2E4774D1003EA73A /* APIConfig.swift in Sources */,
 				BCCE16F82E236CC200DCCCF6 /* BaseNavigationController.swift in Sources */,
 				BCCE16F92E236CC200DCCCF6 /* BaseWebViewController.swift in Sources */,
+				BC7DF88F2E4774DC003EA73A /* Keys.swift in Sources */,
 				BCCE16FA2E236CC200DCCCF6 /* BaseExample.swift in Sources */,
 				BCCE16FB2E236CC200DCCCF6 /* BaseTabBarController.swift in Sources */,
 				BCCE16FC2E236CC200DCCCF6 /* BaseTableViewController.swift in Sources */,
@@ -340,14 +396,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		BCCE16872E235C6000DCCCF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCCE16862E235C6000DCCCF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -361,10 +409,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4VZQ928P2N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PerfectKitchen/Info.plist;
+				INFOPLIST_FILE = PerfectKitchen/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15;
@@ -391,10 +438,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4VZQ928P2N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PerfectKitchen/Info.plist;
+				INFOPLIST_FILE = PerfectKitchen/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15;

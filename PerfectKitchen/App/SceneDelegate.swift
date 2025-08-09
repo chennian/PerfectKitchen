@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DoraemonKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -22,6 +23,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.rootViewController = BaseTabBarController.shared
         window.makeKeyAndVisible()
         self.window = window
+        
+        #if DEBUG
+        DoraemonManager.shareInstance().install() // 默认启用
+        #endif
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

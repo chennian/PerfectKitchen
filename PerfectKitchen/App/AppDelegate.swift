@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DoraemonKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,9 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("[DB] setup failed: \(error)")
         }
         
-        #if DEBUG
-        DoraemonManager.shareInstance().install() // 默认启用	
-        #endif
         return true
     }
 
