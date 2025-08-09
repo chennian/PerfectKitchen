@@ -3,6 +3,27 @@ PODS:
   - DGCharts (5.1.0):
     - DGCharts/Core (= 5.1.0)
   - DGCharts/Core (5.1.0)
+  - DoraemonKit/Core (3.1.3):
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - DoraemonKit/WithDatabase (3.1.3):
+    - DoraemonKit/Core
+    - YYDebugDatabase
+  - FMDB (2.7.12):
+    - FMDB/standard (= 2.7.12)
+  - FMDB/Core (2.7.12)
+  - FMDB/standard (2.7.12):
+    - FMDB/Core
+  - FSCalendar (2.8.4)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
   - IQKeyboardCore (1.0.7)
   - IQKeyboardToolbar (1.1.1):
     - IQKeyboardCore
@@ -29,9 +50,15 @@ PODS:
     - SQLite.swift/standard (= 0.14.1)
   - SQLite.swift/standard (0.14.1)
   - SwiftGen (6.6.3)
+  - YYDebugDatabase (2.1.1):
+    - FMDB
+    - GCDWebServer
 
 DEPENDENCIES:
   - DGCharts
+  - DoraemonKit/Core (from `https://github.com/didi/DoKit.git`, commit `4c24d1e`)
+  - DoraemonKit/WithDatabase (from `https://github.com/didi/DoKit.git`, commit `4c24d1e`)
+  - FSCalendar (= 2.8.4)
   - IQKeyboardToolbarManager (= 1.1.3)
   - JXPagingView/Paging (= 2.1.3)
   - JXSegmentedView (= 1.4.1)
@@ -45,6 +72,9 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - DGCharts
+    - FMDB
+    - FSCalendar
+    - GCDWebServer
     - IQKeyboardCore
     - IQKeyboardToolbar
     - IQKeyboardToolbarManager
@@ -56,10 +86,25 @@ SPEC REPOS:
     - SnapKit
     - SQLite.swift
     - SwiftGen
+    - YYDebugDatabase
+
+EXTERNAL SOURCES:
+  DoraemonKit:
+    :commit: 4c24d1e
+    :git: https://github.com/didi/DoKit.git
+
+CHECKOUT OPTIONS:
+  DoraemonKit:
+    :commit: 4c24d1e
+    :git: https://github.com/didi/DoKit.git
 
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  DoraemonKit: 7448814a80d9ca56bc8db9105c464b7ec2e62623
+  FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   IQKeyboardCore: cb7f0a9a17dd32599569f2f478c1418dc28bcebb
   IQKeyboardToolbar: d4bdccfb78324aec2f3920659c77bb89acd33312
   IQKeyboardToolbarManager: 6c693c8478d6327a7ef2107528d29698b3514dbb
@@ -71,7 +116,8 @@ SPEC CHECKSUMS:
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
   SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
+  YYDebugDatabase: 2e815f2b5ba7ff49aa298ea265dec6a7aa4664ad
 
-PODFILE CHECKSUM: df2385e6900383e8ab760b0dc1e6c57ba5b7a51e
+PODFILE CHECKSUM: 3bd62a8e791264b44b7345792eda4489f6ded61c
 
 COCOAPODS: 1.16.2
