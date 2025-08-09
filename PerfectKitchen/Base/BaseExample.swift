@@ -21,6 +21,19 @@ class HomeViewController: BaseViewController {
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             button.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
+        
+        // Demo: 插入一条示例数据（如果表为空）
+        DispatchQueue.global().async {
+            let dao = RecipeDAO()
+            do {
+                let existing = try dao.fetchAll()
+                if existing.isEmpty {
+                    _ = try dao.insert(name: "红烧肉", cuisine: "川菜")
+                }
+            } catch {
+                print("[DB Demo] error: \(error)")
+            }
+        }
     }
     
     @objc private func showRecipeList() {
@@ -49,6 +62,23 @@ class RecipeListViewController: BaseTableViewController {
         
         // 添加下拉刷新
         addRefreshControl()
+        
+        // 从数据库加载
+        DispatchQueue.global().async {
+            let dao = RecipeDAO()
+            do {
+                let rows = try dao.fetchAll()
+                let names = rows.map { $0.name }
+                DispatchQueue.main.async {
+                    if !names.isEmpty {
+                        self.recipes = names
+                        self.reloadData()
+                    }
+                }
+            } catch {
+                print("[DB Demo] fetch error: \(error)")
+            }
+        }
     }
     
     override func registerCells() {
