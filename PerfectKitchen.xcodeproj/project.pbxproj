@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		643C3AD263230A1097F11F7A /* Pods_PerfectKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2AA8A706270AEBA1CC477 /* Pods_PerfectKitchen.framework */; };
 		7B64B1C535F97221A426800C /* Pods_PerfectKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F64CCD9EBD2A78DB3462D54 /* Pods_PerfectKitchen.framework */; };
+		BC3B46942E5B640B00B7F728 /* ExtensionIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B468F2E5B640B00B7F728 /* ExtensionIndex.swift */; };
+		BC3B46952E5B640B00B7F728 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B46902E5B640B00B7F728 /* String+Extension.swift */; };
+		BC3B46962E5B640B00B7F728 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B46912E5B640B00B7F728 /* UIColor+Extension.swift */; };
+		BC3B46972E5B640B00B7F728 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B46932E5B640B00B7F728 /* UIView+Extension.swift */; };
+		BC3B46982E5B640B00B7F728 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B468C2E5B640B00B7F728 /* Array+Extension.swift */; };
+		BC3B46992E5B640B00B7F728 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B468E2E5B640B00B7F728 /* Dictionary+Extension.swift */; };
+		BC3B469A2E5B640B00B7F728 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B468D2E5B640B00B7F728 /* Date+Extension.swift */; };
+		BC3B469B2E5B640B00B7F728 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B46922E5B640B00B7F728 /* UIFont+Extension.swift */; };
 		BC7DF88B2E4774C3003EA73A /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF88A2E4774BD003EA73A /* AppConfig.swift */; };
 		BC7DF88D2E4774D1003EA73A /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF88C2E4774C8003EA73A /* APIConfig.swift */; };
 		BC7DF88F2E4774DC003EA73A /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF88E2E4774DA003EA73A /* Keys.swift */; };
@@ -38,6 +46,14 @@
 		6F64CCD9EBD2A78DB3462D54 /* Pods_PerfectKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B298B047CDAB670CDAEAF9 /* Pods-PerfectKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectKitchen.release.xcconfig"; path = "Target Support Files/Pods-PerfectKitchen/Pods-PerfectKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		B84D2B30806E7C19007ADB37 /* Pods-PerfectKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectKitchen.debug.xcconfig"; path = "Target Support Files/Pods-PerfectKitchen/Pods-PerfectKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3B468C2E5B640B00B7F728 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		BC3B468D2E5B640B00B7F728 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		BC3B468E2E5B640B00B7F728 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		BC3B468F2E5B640B00B7F728 /* ExtensionIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionIndex.swift; sourceTree = "<group>"; };
+		BC3B46902E5B640B00B7F728 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BC3B46912E5B640B00B7F728 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BC3B46922E5B640B00B7F728 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		BC3B46932E5B640B00B7F728 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		BC7DF88A2E4774BD003EA73A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		BC7DF88C2E4774C8003EA73A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 		BC7DF88E2E4774DA003EA73A /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
@@ -242,6 +258,14 @@
 		BCCE16F12E235D6800DCCCF6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BC3B468C2E5B640B00B7F728 /* Array+Extension.swift */,
+				BC3B468D2E5B640B00B7F728 /* Date+Extension.swift */,
+				BC3B468E2E5B640B00B7F728 /* Dictionary+Extension.swift */,
+				BC3B468F2E5B640B00B7F728 /* ExtensionIndex.swift */,
+				BC3B46902E5B640B00B7F728 /* String+Extension.swift */,
+				BC3B46912E5B640B00B7F728 /* UIColor+Extension.swift */,
+				BC3B46922E5B640B00B7F728 /* UIFont+Extension.swift */,
+				BC3B46932E5B640B00B7F728 /* UIView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -377,6 +401,14 @@
 			files = (
 				BCCE168F2E235C6000DCCCF6 /* AppDelegate.swift in Sources */,
 				BC7DF88B2E4774C3003EA73A /* AppConfig.swift in Sources */,
+				BC3B46942E5B640B00B7F728 /* ExtensionIndex.swift in Sources */,
+				BC3B46952E5B640B00B7F728 /* String+Extension.swift in Sources */,
+				BC3B46962E5B640B00B7F728 /* UIColor+Extension.swift in Sources */,
+				BC3B46972E5B640B00B7F728 /* UIView+Extension.swift in Sources */,
+				BC3B46982E5B640B00B7F728 /* Array+Extension.swift in Sources */,
+				BC3B46992E5B640B00B7F728 /* Dictionary+Extension.swift in Sources */,
+				BC3B469A2E5B640B00B7F728 /* Date+Extension.swift in Sources */,
+				BC3B469B2E5B640B00B7F728 /* UIFont+Extension.swift in Sources */,
 				BCCE16EB2E235D1700DCCCF6 /* APIService.swift in Sources */,
 				BCCE16EC2E235D1700DCCCF6 /* NetworkAPI.swift in Sources */,
 				BC7DF88D2E4774D1003EA73A /* APIConfig.swift in Sources */,
